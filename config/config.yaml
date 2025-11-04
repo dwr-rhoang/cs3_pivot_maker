@@ -1,9 +1,0 @@
-# Paths below are relative to THIS file.
-dvars: "dvars.yaml"
-svars: "svars.yaml"
-study_ledger: "study_ledger.yaml"
-date_map: "date_map.csv"
-
-outputs:
-  dv_csv: "../outputs/dv_data.csv"
-  sv_csv: "../outputs/sv_data.csv"

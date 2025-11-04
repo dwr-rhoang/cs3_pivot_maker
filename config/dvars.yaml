@@ -1734,3 +1734,99 @@ C_CAA293:
   table_display: wy
   type: CAA
   units: cfs
+C_SJR013:
+  alias: San Joaquin River below Jersey Point
+  bpart: C_SJR013
+  pathname: /CALSIM/C_SJR013/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CSM001:
+  alias: Consumnes River Inflow
+  bpart: C_CSM001
+  pathname: /CALSIM/C_CSM001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_MOK022:
+  alias: Consumnes River Inflow
+  bpart: C_MOK022
+  pathname: /CALSIM/C_MOK022/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CLV004:
+  alias: Calaveras River Inflow
+  bpart: C_CLV004
+  pathname: /CALSIM/C_CLV004/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+D_SAC030_MOK014:
+  alias: Flow from Sacramento River through DCC
+  bpart: D_SAC030_MOK014
+  pathname: /CALSIM/D_SAC030_MOK014/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_SAC029B:
+  alias: Flow from Sacramento River through Georgiana Slough
+  bpart: C_SAC029B
+  pathname: /CALSIM/C_SAC029B/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+DeltaAccretionforNDOI:
+  alias: In-Delta precipitation
+  bpart: DeltaAccretionforNDOI
+  pathname: /CALSIM/DeltaAccretionforNDOI/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Accretion/Depletion
+  units: cfs
+DeltaDepletionforNDOI:
+  alias: In-Delta depetion
+  bpart: DeltaDepletionforNDOI
+  pathname: /CALSIM/DeltaDepletionforNDOI/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Accretion/Depletion
+  units: cfs
+D_BKR004_NBA009:
+  alias: North Bay Aqueduct
+  bpart: D_BKR004_NBA009
+  pathname: /CALSIM/D_BKR004_NBA009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Diversion
+  units: cfs
+D_RSL004_CCC004:
+  alias: Contra Costa Water District, Rock Slough Intake
+  bpart: D_RSL004_CCC004
+  pathname: /CALSIM/D_RSL004_CCC004/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Diversion
+  units: cfs
+D_OMR021_ORP000:
+  alias: Contra Costa Water District, Old River Intake
+  bpart: D_OMR021_ORP000
+  pathname: /CALSIM/D_OMR021_ORP000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Diversion
+  units: cfs
+D_VCT002_ORP000:
+  alias: Contra Costa Water District, Middle River Intake
+  bpart: D_VCT002_ORP000
+  pathname: /CALSIM/D_VCT002_ORP000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Diversion
+  units: cfs
