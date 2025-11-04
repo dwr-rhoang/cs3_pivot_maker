@@ -1,0 +1,32 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore output and temporary data
+output/
+*.csv
+*.xlsx
+*.tmp
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/

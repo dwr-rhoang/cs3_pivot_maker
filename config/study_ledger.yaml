@@ -1,0 +1,7 @@
+studies:
+  - dv_path: "C:/dev/calsim3-dcr/DSS/output/DCR2025_DV_9.8.1_Danube_Adj_v4.0_QWEST.dss"
+    sv_path: "C:/jobs/20230428_DCR23/models/9.3.1_danube_adj/DSS/input/DCR2023_SV_Danube_Adj_v1.8.dss"
+    alias: "DCR25_AdjHist_QWEST"
+    assumptions: "QWEST"
+    climate: "Current"
+    color: 1

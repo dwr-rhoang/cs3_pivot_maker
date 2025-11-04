@@ -1,0 +1,1597 @@
+I_ALD002:
+  alias: Alder Creek (below Alder Creek Diversion Dam)
+  bpart: I_ALD002
+  pathname: /CALSIM/I_ALD002/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ALD004:
+  alias: Alder Creek (at Proposed Site of Alder Creek Reservoir)
+  bpart: I_ALD004
+  pathname: /CALSIM/I_ALD004/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ALMNR:
+  alias: Inflow to Lake Almanor
+  bpart: I_ALMNR
+  pathname: /CALSIM/I_ALMNR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ALOHA:
+  alias: Pyramid Creek inflow to Lake Aloha
+  bpart: I_ALOHA
+  pathname: /CALSIM/I_ALOHA/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_AMADR:
+  alias: Jackson Creek inflow to Jackson Reservoir
+  bpart: I_AMADR
+  pathname: /CALSIM/I_AMADR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ANG017:
+  alias: Angel Creek inflows to Murphys Afterbay
+  bpart: I_ANG017
+  pathname: /CALSIM/I_ANG017/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ANT011:
+  alias: Antelope Creek
+  bpart: I_ANT011
+  pathname: /CALSIM/I_ANT011/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ANTLP:
+  alias: Inflow to  Antelope Lake
+  bpart: I_ANTLP
+  pathname: /CALSIM/I_ANTLP/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BANOS:
+  alias: Los Banos Creek inflows to Los Banos Reservoir
+  bpart: I_BANOS
+  pathname: /CALSIM/I_BANOS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BCC014:
+  alias: Big Chico Creek
+  bpart: I_BCC014
+  pathname: /CALSIM/I_BCC014/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BCK040:
+  alias: Bear Creek inflows to Bear Reservoir (Merced County)
+  bpart: I_BCK040
+  pathname: /CALSIM/I_BCK040/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BCN010:
+  alias: Bear Creek (Tributary to Sacramento River)
+  bpart: I_BCN010
+  pathname: /CALSIM/I_BCN010/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BEARD:
+  alias: Inflow to Beardsley Lake
+  bpart: I_BEARD
+  pathname: /CALSIM/I_BEARD/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BLKBT:
+  alias: Local inflow to Black Butte Resrvoir
+  bpart: I_BLKBT
+  pathname: /CALSIM/I_BLKBT/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BOWMN:
+  alias: Local inflow to Bowman Lake
+  bpart: I_BOWMN
+  pathname: /CALSIM/I_BOWMN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BRC003:
+  alias: Local inflows to Cache Creek from Bear Creek
+  bpart: I_BRC003
+  pathname: /CALSIM/I_BRC003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BRR023:
+  alias: Local inflow to Garden Bar Dam Site
+  bpart: I_BRR023
+  pathname: /CALSIM/I_BRR023/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BSH003:
+  alias: Brush Creek inflow to Brush Creek Reservoir
+  bpart: I_BSH003
+  pathname: /CALSIM/I_BSH003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BTC048:
+  alias: Butte Creek inflow to Battle Creek
+  bpart: I_BTC048
+  pathname: /CALSIM/I_BTC048/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BTL006:
+  alias: Battle Creek
+  bpart: I_BTL006
+  pathname: /CALSIM/I_BTL006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BTVLY:
+  alias: Inflow to Butt Valley Reservoir
+  bpart: I_BTVLY
+  pathname: /CALSIM/I_BTVLY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BUCKS:
+  alias: Bucks Creek inflow to Lower Bucks Creek Reservoir
+  bpart: I_BUCKS
+  pathname: /CALSIM/I_BUCKS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BUR005:
+  alias: Burns Creek
+  bpart: I_BUR005
+  pathname: /CALSIM/I_BUR005/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_BVC007:
+  alias: Beaver Creek inflows upstream of Beaver Creek Diversion Dam
+  bpart: I_BVC007
+  pathname: /CALSIM/I_BVC007/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CAP000:
+  alias: Capita Canyon and minor streams
+  bpart: I_CAP000
+  pathname: /CALSIM/I_CAP000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CAPLS:
+  alias: Inflow to Caples Lake
+  bpart: I_CAPLS
+  pathname: /CALSIM/I_CAPLS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CCH053:
+  alias: Local inflows to Cache Creek downstream of Rumsey
+  bpart: I_CCH053
+  pathname: /CALSIM/I_CCH053/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CFS001:
+  alias: Clark Fork Stanislaus River inflows to Middle Fork Stanislaus
+  bpart: I_CFS001
+  pathname: /CALSIM/I_CFS001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CHC000:
+  alias: Corral Hollow and minor creeks
+  bpart: I_CHC000
+  pathname: /CALSIM/I_CHC000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CHW031:
+  alias: Local inflow to Chowchilla River below Buchanan Dam
+  bpart: I_CHW031
+  pathname: /CALSIM/I_CHW031/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CLR011:
+  alias: Local inflows to Clear Creek at Igo
+  bpart: I_CLR011
+  pathname: /CALSIM/I_CLR011/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CLRLK:
+  alias: Cache Creek inflow to Clear Lake
+  bpart: I_CLRLK
+  pathname: /CALSIM/I_CLRLK/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CLV026:
+  alias: Local inflow to Calaveras River at Bellota Weir
+  bpart: I_CLV026
+  pathname: /CALSIM/I_CLV026/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CMBIE:
+  alias: Local inflow to Combie Reservoir
+  bpart: I_CMBIE
+  pathname: /CALSIM/I_CMBIE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CMCHE:
+  alias: Local inflow to Camanche Reservoir
+  bpart: I_CMCHE
+  pathname: /CALSIM/I_CMCHE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CMP001:
+  alias: Local inflows Camp Creek below Sly Park Creek Confluence
+  bpart: I_CMP001
+  pathname: /CALSIM/I_CMP001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CMP014:
+  alias: Camp Creek
+  bpart: I_CMP014
+  pathname: /CALSIM/I_CMP014/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CMPFW:
+  alias: Local inflow to Camp Far West Reservoir
+  bpart: I_CMPFW
+  pathname: /CALSIM/I_CMPFW/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_COL003:
+  alias: Cole Creek
+  bpart: I_COL003
+  pathname: /CALSIM/I_COL003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_COT033:
+  alias: Cottonwood Creek
+  bpart: I_COT033
+  pathname: /CALSIM/I_COT033/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_COW014:
+  alias: Cow Creek
+  bpart: I_COW014
+  pathname: /CALSIM/I_COW014/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CSM035:
+  alias: Cosumnes River
+  bpart: I_CSM035
+  pathname: /CALSIM/I_CSM035/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CWD018:
+  alias: North and Middle Forks Cottonwood Creek (Near Olinda)
+  bpart: I_CWD018
+  pathname: /CALSIM/I_CWD018/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_CYN009:
+  alias: Inflow to Canyon Creek at Towle Canal Diversion Dam
+  bpart: I_CYN009
+  pathname: /CALSIM/I_CYN009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DAVIS:
+  alias: Inflow to Davis Lake
+  bpart: I_DAVIS
+  pathname: /CALSIM/I_DAVIS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DBC024:
+  alias: Dry Creek and Berenda Creek
+  bpart: I_DBC024
+  pathname: /CALSIM/I_DBC024/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DCC010:
+  alias: Duncan Canyon Creek
+  bpart: I_DCC010
+  pathname: /CALSIM/I_DCC010/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DCM027:
+  alias: Dry Creek (Merced)
+  bpart: I_DCM027
+  pathname: /CALSIM/I_DCM027/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DCT050:
+  alias: Dry Creek (Tuolumne)
+  bpart: I_DCT050
+  pathname: /CALSIM/I_DCT050/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DED044:
+  alias: Deadman and Dutchman Creeks
+  bpart: I_DED044
+  pathname: /CALSIM/I_DED044/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DEE023:
+  alias: Dear Creek (inflow to Consumnes)
+  bpart: I_DEE023
+  pathname: /CALSIM/I_DEE023/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DER001:
+  alias: Local inflow to Deer Creek near Smartville
+  bpart: I_DER001
+  pathname: /CALSIM/I_DER001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DER004:
+  alias: Local inflow to Deer Creek at Lake Wildwood
+  bpart: I_DER004
+  pathname: /CALSIM/I_DER004/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DHC021:
+  alias: Dry Creek and Hutchinson Creek
+  bpart: I_DHC021
+  pathname: /CALSIM/I_DHC021/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DONLL:
+  alias: Inflow to Donnells Lake
+  bpart: I_DONLL
+  pathname: /CALSIM/I_DONLL/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DPC008:
+  alias: Del Puerto Creek
+  bpart: I_DPC008
+  pathname: /CALSIM/I_DPC008/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DRC012:
+  alias: Deer Creek near Vina
+  bpart: I_DRC012
+  pathname: /CALSIM/I_DRC012/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_DSC035:
+  alias: Dry Creek and Secret Creek
+  bpart: I_DSC035
+  pathname: /CALSIM/I_DSC035/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_EBF001:
+  alias: Local inflow to East Branch NF Feather River below Antelope Lake
+  bpart: I_EBF001
+  pathname: /CALSIM/I_EBF001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ECHOL:
+  alias: Echo Lake
+  bpart: I_ECHOL
+  pathname: /CALSIM/I_ECHOL/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ELD027:
+  alias: Elder Creek
+  bpart: I_ELD027
+  pathname: /CALSIM/I_ELD027/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ELENR:
+  alias: Inflow to Lake Eleanor
+  bpart: I_ELENR
+  pathname: /CALSIM/I_ELENR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ENGLB:
+  alias: Local inflow to Englebright Reservoir
+  bpart: I_ENGLB
+  pathname: /CALSIM/I_ENGLB/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_EPARK:
+  alias: Stony Creek inflow to East Park Dam
+  bpart: I_EPARK
+  pathname: /CALSIM/I_EPARK/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ESTMN:
+  alias: Chowchilla River inflows to Eastman Lake
+  bpart: I_ESTMN
+  pathname: /CALSIM/I_ESTMN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FOLSM:
+  alias: Local inflow to Folsom Lake
+  bpart: I_FOLSM
+  pathname: /CALSIM/I_FOLSM/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FRDYC:
+  alias: Inflow to Fordyce Lake
+  bpart: I_FRDYC
+  pathname: /CALSIM/I_FRDYC/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FRMAN:
+  alias: Frenchman Lake inflows
+  bpart: I_FRMAN
+  pathname: /CALSIM/I_FRMAN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FRMDW:
+  alias: Inflow to French Meadows Reservoir
+  bpart: I_FRMDW
+  pathname: /CALSIM/I_FRMDW/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FRNCH:
+  alias: Inflow to French Lake
+  bpart: I_FRNCH
+  pathname: /CALSIM/I_FRNCH/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FRS046:
+  alias: Local inflow to Fresno River below Hidden Dam near Daulton
+  bpart: I_FRS046
+  pathname: /CALSIM/I_FRS046/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_FSL012:
+  alias: Fresno Slough
+  bpart: I_FSL012
+  pathname: /CALSIM/I_FSL012/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_GERLE:
+  alias: Local inflow to Gerle Reservoir
+  bpart: I_GERLE
+  pathname: /CALSIM/I_GERLE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_GRZ012:
+  alias: Garzas Creek
+  bpart: I_GRZ012
+  pathname: /CALSIM/I_GRZ012/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_GZL009:
+  alias: Local inflow to Grizzly Creek upstream of Grizzly Forebay
+  bpart: I_GZL009
+  pathname: /CALSIM/I_GZL009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_HHOLE:
+  alias: Local inflow to Hell Hole Reservoir
+  bpart: I_HHOLE
+  pathname: /CALSIM/I_HHOLE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_HNSLY:
+  alias: Fresno River inflows to Hensley Lake
+  bpart: I_HNSLY
+  pathname: /CALSIM/I_HNSLY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_HON021:
+  alias: Honcut Creek
+  bpart: I_HON021
+  pathname: /CALSIM/I_HON021/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_HTCHY:
+  alias: Inflow To Hetch Hetchy Reservoir
+  bpart: I_HTCHY
+  pathname: /CALSIM/I_HTCHY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ICEHS:
+  alias: Inflow to Ice House Reservoir
+  bpart: I_ICEHS
+  pathname: /CALSIM/I_ICEHS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_INDVL:
+  alias: NF Cache Creek inflow to Indian Valley Reservoir
+  bpart: I_INDVL
+  pathname: /CALSIM/I_INDVL/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ING008:
+  alias: Hospital and Ingram Creeks
+  bpart: I_ING008
+  pathname: /CALSIM/I_ING008/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_JBP006:
+  alias: James Bypass
+  bpart: I_JBP006
+  pathname: /CALSIM/I_JBP006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_JKSMD:
+  alias: Inflow to Jackson Meadows
+  bpart: I_JKSMD
+  pathname: /CALSIM/I_JKSMD/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_JNKSN:
+  alias: Sly Park Creek and Hazel Creek inflow to Jenkinson Lake
+  bpart: I_JNKSN
+  pathname: /CALSIM/I_JNKSN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LCBRF:
+  alias: Texas, Fall, and Rucker Creeks
+  bpart: I_LCBRF
+  pathname: /CALSIM/I_LCBRF/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LCC038:
+  alias: Little Chico Creek
+  bpart: I_LCC038
+  pathname: /CALSIM/I_LCC038/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LDC029:
+  alias: Little Dry Creek
+  bpart: I_LDC029
+  pathname: /CALSIM/I_LDC029/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LGRSV:
+  alias: South Fork Feather River
+  bpart: I_LGRSV
+  pathname: /CALSIM/I_LGRSV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LJC022:
+  alias: Littlejohns Creek
+  bpart: I_LJC022
+  pathname: /CALSIM/I_LJC022/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LKVLY:
+  alias: Inflow to Lake Valley Reservoir (NF American River)
+  bpart: I_LKVLY
+  pathname: /CALSIM/I_LKVLY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LLOYD:
+  alias: Inflow to Lake Lloyd/Cherry Lake
+  bpart: I_LLOYD
+  pathname: /CALSIM/I_LLOYD/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LNG012:
+  alias: Local inflow to Long Canyon Creek
+  bpart: I_LNG012
+  pathname: /CALSIM/I_LNG012/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LOONL:
+  alias: Inflow to Loon Lake
+  bpart: I_LOONL
+  pathname: /CALSIM/I_LOONL/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LOSVQ:
+  alias: Kellogg Creek Inflow to Los Vaqueros Reservoir
+  bpart: I_LOSVQ
+  pathname: /CALSIM/I_LOSVQ/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LPC007:
+  alias: Little Panoche Creek
+  bpart: I_LPC007
+  pathname: /CALSIM/I_LPC007/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LRB004:
+  alias: Little Rubicon River inflow to Buck Island Lake
+  bpart: I_LRB004
+  pathname: /CALSIM/I_LRB004/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LWSTN:
+  alias: Local inflow to Lewiston Reservoir
+  bpart: I_LWSTN
+  pathname: /CALSIM/I_LWSTN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_LYONS:
+  alias: Inflow to Lyons Reservoir
+  bpart: I_LYONS
+  pathname: /CALSIM/I_LYONS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MCD055:
+  alias: Local inflow to Merced River at Merced Falls Diversion Dam
+  bpart: I_MCD055
+  pathname: /CALSIM/I_MCD055/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MCLRE:
+  alias: Local inflow to Lake McClure
+  bpart: I_MCLRE
+  pathname: /CALSIM/I_MCLRE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MERLC:
+  alias: French Dry Creek inflow to Merle Collins Lake
+  bpart: I_MERLC
+  pathname: /CALSIM/I_MERLC/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFA001:
+  alias: Local inflow to Middle Fork American River near Auburn
+  bpart: I_MFA001
+  pathname: /CALSIM/I_MFA001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFA023:
+  alias: Local inflow to Middle Fork American River near Foresthill
+  bpart: I_MFA023
+  pathname: /CALSIM/I_MFA023/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFA025:
+  alias: Local inflow to Middle Fork American River
+  bpart: I_MFA025
+  pathname: /CALSIM/I_MFA025/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFA036:
+  alias: Local inflow to Middle Fork American River at Interbay Dam
+  bpart: I_MFA036
+  pathname: /CALSIM/I_MFA036/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFF019:
+  alias: Local inflow to Middle Fork Feather River near Merrimac
+  bpart: I_MFF019
+  pathname: /CALSIM/I_MFF019/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFF087:
+  alias: Local inflow to Middle Fork Feather River near Portola
+  bpart: I_MFF087
+  pathname: /CALSIM/I_MFF087/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFM008:
+  alias: Middle Fork Mokelumne River
+  bpart: I_MFM008
+  pathname: /CALSIM/I_MFM008/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFS013:
+  alias: Local Inflow to MF Stanislaus River at Sand Bar Diversion Dam
+  bpart: I_MFS013
+  pathname: /CALSIM/I_MFS013/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFS022:
+  alias: Local inflow to MF Stanislaus River above Hells Half Acre Bridge
+  bpart: I_MFS022
+  pathname: /CALSIM/I_MFS022/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFS047:
+  alias: Kennedy Creek Inflow to MF Stanislaus River
+  bpart: I_MFS047
+  pathname: /CALSIM/I_MFS047/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MFY013:
+  alias: Local inflow to MF Yuba River
+  bpart: I_MFY013
+  pathname: /CALSIM/I_MFY013/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MIL003:
+  alias: Mills Creek
+  bpart: I_MIL003
+  pathname: /CALSIM/I_MIL003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MLC006:
+  alias: Mill Creek
+  bpart: I_MLC006
+  pathname: /CALSIM/I_MLC006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MLRTN:
+  alias: San Joaquin River inflows to Millerton Reservoir
+  bpart: I_MLRTN
+  pathname: /CALSIM/I_MLRTN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MNS000:
+  alias: Inflows from Minor North-East Streams to Sacramento River
+  bpart: I_MNS000
+  pathname: /CALSIM/I_MNS000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MOK079:
+  alias: Local Inflow to Mokelumne River above Pardee Reservoir
+  bpart: I_MOK079
+  pathname: /CALSIM/I_MOK079/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MPS038:
+  alias: Mariposa Creek
+  bpart: I_MPS038
+  pathname: /CALSIM/I_MPS038/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MSH015:
+  alias: Marsh Creek inflows to the Delta
+  bpart: I_MSH015
+  pathname: /CALSIM/I_MSH015/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_MTMDW:
+  alias: Inflow to Mountain Meadows Reservoir
+  bpart: I_MTMDW
+  pathname: /CALSIM/I_MTMDW/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NBLDB:
+  alias: Local inflow to New Bullards Bar Reservoir
+  bpart: I_NBLDB
+  pathname: /CALSIM/I_NBLDB/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFA016:
+  alias: Local inflow to NF American River at Auburn Tunnel Pump Station Diversion
+  bpart: I_NFA016
+  pathname: /CALSIM/I_NFA016/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFA022:
+  alias: Local inflow to NF American River at North Fork Dam
+  bpart: I_NFA022
+  pathname: /CALSIM/I_NFA022/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFA054:
+  alias: North Fork American River
+  bpart: I_NFA054
+  pathname: /CALSIM/I_NFA054/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFF029:
+  alias: Local inflow to NF Feather River above Poe Dam
+  bpart: I_NFF029
+  pathname: /CALSIM/I_NFF029/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFM010:
+  alias: Local Inflow to NF Mokelumne River
+  bpart: I_NFM010
+  pathname: /CALSIM/I_NFM010/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFS005:
+  alias: Local inflow to NF Stanislaus River below Beaver Creek
+  bpart: I_NFS005
+  pathname: /CALSIM/I_NFS005/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFS009:
+  alias: Local inflow to NF Stanislaus River near Avery
+  bpart: I_NFS009
+  pathname: /CALSIM/I_NFS009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFS033:
+  alias: North Fork Stanislaus River
+  bpart: I_NFS033
+  pathname: /CALSIM/I_NFS033/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NFY029:
+  alias: North Fork Yuba River and local inflows
+  bpart: I_NFY029
+  pathname: /CALSIM/I_NFY029/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NHGAN:
+  alias: Calaveras River inflows to New Hogan Dam
+  bpart: I_NHGAN
+  pathname: /CALSIM/I_NHGAN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NLC003:
+  alias: North Fork of Long Canyon Creek
+  bpart: I_NLC003
+  pathname: /CALSIM/I_NLC003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NMA003:
+  alias: North Fork of Middle Fork American River
+  bpart: I_NMA003
+  pathname: /CALSIM/I_NMA003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_NNA013:
+  alias: Local inflow to NF American River
+  bpart: I_NNA013
+  pathname: /CALSIM/I_NNA013/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_OGN005:
+  alias: Oregon Creek
+  bpart: I_OGN005
+  pathname: /CALSIM/I_OGN005/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ORG000:
+  alias: Ortigalita Creek
+  bpart: I_ORG000
+  pathname: /CALSIM/I_ORG000/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_OROVL:
+  alias: Local inflow to Lake Oroville
+  bpart: I_OROVL
+  pathname: /CALSIM/I_OROVL/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_ORT014:
+  alias: Orestimba Creek
+  bpart: I_ORT014
+  pathname: /CALSIM/I_ORT014/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_OWN040:
+  alias: Owens Creek
+  bpart: I_OWN040
+  pathname: /CALSIM/I_OWN040/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PARDE:
+  alias: Local Inflow to Pardee Reservoir
+  bpart: I_PARDE
+  pathname: /CALSIM/I_PARDE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PCRST:
+  alias: Inflow to Pinecrest Lake
+  bpart: I_PCRST
+  pathname: /CALSIM/I_PCRST/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PEDRO:
+  alias: Tuolumne River inflows to New Don Pedro Dam
+  bpart: I_PEDRO
+  pathname: /CALSIM/I_PEDRO/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PLC007:
+  alias: Local inflow to Pilot Creek downstream of Georgetown
+  bpart: I_PLC007
+  pathname: /CALSIM/I_PLC007/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PLM001:
+  alias: Plum Creek
+  bpart: I_PLM001
+  pathname: /CALSIM/I_PLM001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PTH070:
+  alias: Inflow to Lake Berryessa
+  bpart: I_PTH070
+  pathname: /CALSIM/I_PTH070/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PYN001:
+  alias: Paynes and Sevenmile creeks
+  bpart: I_PYN001
+  pathname: /CALSIM/I_PYN001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_PYR001:
+  alias: Local inflow to Pyramid Creek at Twin Bridges
+  bpart: I_PYR001
+  pathname: /CALSIM/I_PYR001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_QNT005:
+  alias: Quinto Creek
+  bpart: I_QNT005
+  pathname: /CALSIM/I_QNT005/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RCK001:
+  alias: Rock Creek
+  bpart: I_RCK001
+  pathname: /CALSIM/I_RCK001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RLIEF:
+  alias: Relief Creek
+  bpart: I_RLIEF
+  pathname: /CALSIM/I_RLIEF/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RLLNS:
+  alias: Local inflow to Rollins Reservoir
+  bpart: I_RLLNS
+  pathname: /CALSIM/I_RLLNS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RUB002:
+  alias: Local inflow to Rubicon River near Foresthill
+  bpart: I_RUB002
+  pathname: /CALSIM/I_RUB002/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RUB047:
+  alias: Inflow to Rubicon Reservoir
+  bpart: I_RUB047
+  pathname: /CALSIM/I_RUB047/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_RVPHB:
+  alias: Inflow to Round Valley and Philbrook Reservoirs
+  bpart: I_RVPHB
+  pathname: /CALSIM/I_RVPHB/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SCOTF:
+  alias: Local inflow to Scotts Flat
+  bpart: I_SCOTF
+  pathname: /CALSIM/I_SCOTF/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SCW008:
+  alias: South Fork Cottonwood Creek
+  bpart: I_SCW008
+  pathname: /CALSIM/I_SCW008/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFA030:
+  alias: Local inflow to South Fork American River near Placerville
+  bpart: I_SFA030
+  pathname: /CALSIM/I_SFA030/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFA040:
+  alias: Slab Creek inflow to South Fork American River at Slab Creek Reservoir
+  bpart: I_SFA040
+  pathname: /CALSIM/I_SFA040/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFA066:
+  alias: Local inflow to South Fork American River near Kyburz
+  bpart: I_SFA066
+  pathname: /CALSIM/I_SFA066/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFA076:
+  alias: Local inflow to South Fork American River near Forni Creek
+  bpart: I_SFA076
+  pathname: /CALSIM/I_SFA076/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFD003:
+  alias: Inflow to South Fork of Deer Creek downstream Deer Crk Powerhouse
+  bpart: I_SFD003
+  pathname: /CALSIM/I_SFD003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFF008:
+  alias: Local inflow to South Fork Feather River at Enterprise
+  bpart: I_SFF008
+  pathname: /CALSIM/I_SFF008/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFF011:
+  alias: Local inflow to South Fork Feather River at Ponderosa Reservoir
+  bpart: I_SFF011
+  pathname: /CALSIM/I_SFF011/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFM005:
+  alias: South Fork Mokelumne River
+  bpart: I_SFM005
+  pathname: /CALSIM/I_SFM005/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFR006:
+  alias: South Fork Rubicon River
+  bpart: I_SFR006
+  pathname: /CALSIM/I_SFR006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFS030:
+  alias: Local inflow to SF Stanislaus River
+  bpart: I_SFS030
+  pathname: /CALSIM/I_SFS030/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFS033:
+  alias: Local inflow to South Fork Stanislaus River above Strawberry
+  bpart: I_SFS033
+  pathname: /CALSIM/I_SFS033/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFY007:
+  alias: Local inflow to SF Yuba River
+  bpart: I_SFY007
+  pathname: /CALSIM/I_SFY007/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SFY048:
+  alias: South Fork Yuba River Near Cisco
+  bpart: I_SFY048
+  pathname: /CALSIM/I_SFY048/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SGRGE:
+  alias: Local inflow to Stony Gorge Reservoir
+  bpart: I_SGRGE
+  pathname: /CALSIM/I_SGRGE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SHSTA:
+  alias: Inflow to Shasta Lake
+  bpart: I_SHSTA
+  pathname: /CALSIM/I_SHSTA/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SILVR:
+  alias: Inflow to Silver Lake
+  bpart: I_SILVR
+  pathname: /CALSIM/I_SILVR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SJR258:
+  alias: Local inflow from Little Dry Creek to San Joaquin River
+  bpart: I_SJR258
+  pathname: /CALSIM/I_SJR258/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SJR265:
+  alias: Local inflow from Cottonwood Creek to San Joaquin River
+  bpart: I_SJR265
+  pathname: /CALSIM/I_SJR265/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLC003:
+  alias: South Fork Long Canyon Creek
+  bpart: I_SLC003
+  pathname: /CALSIM/I_SLC003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLF009:
+  alias: Local inflow to Silver Fork American River at Proposed Diversion for Alder
+    Creek Reservoir
+  bpart: I_SLF009
+  pathname: /CALSIM/I_SLF009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLO007:
+  alias: Salado Creek
+  bpart: I_SLO007
+  pathname: /CALSIM/I_SLO007/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLT009:
+  alias: Slate Creek
+  bpart: I_SLT009
+  pathname: /CALSIM/I_SLT009/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLTSP:
+  alias: Inflow to Salt Springs Reservoir
+  bpart: I_SLTSP
+  pathname: /CALSIM/I_SLTSP/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLUIS:
+  alias: Local inflows to San Luis Reservoir
+  bpart: I_SLUIS
+  pathname: /CALSIM/I_SLUIS/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLV006:
+  alias: Local inflow to Silver Creek at Camino Reservoir
+  bpart: I_SLV006
+  pathname: /CALSIM/I_SLV006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLV015:
+  alias: Local inflow to Silver Creek at Junction Reservoir
+  bpart: I_SLV015
+  pathname: /CALSIM/I_SLV015/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SLYCK:
+  alias: Sly Creek
+  bpart: I_SLYCK
+  pathname: /CALSIM/I_SLYCK/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SPICE:
+  alias: Highland Creek
+  bpart: I_SPICE
+  pathname: /CALSIM/I_SPICE/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_SPLDG:
+  alias: Local inflow to Spaulding Reservoir
+  bpart: I_SPLDG
+  pathname: /CALSIM/I_SPLDG/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_STMPY:
+  alias: Inflow to Stumpy Meadows Reservoir
+  bpart: I_STMPY
+  pathname: /CALSIM/I_STMPY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_STS059:
+  alias: Local inflow to Stanislaus River below Tulloch Reservoir
+  bpart: I_STS059
+  pathname: /CALSIM/I_STS059/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_STS072:
+  alias: Local inflow to New Melones Reservoir
+  bpart: I_STS072
+  pathname: /CALSIM/I_STS072/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_TGC003:
+  alias: Tiger Creek
+  bpart: I_TGC003
+  pathname: /CALSIM/I_TGC003/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_THM028:
+  alias: Thomes Creek
+  bpart: I_THM028
+  pathname: /CALSIM/I_THM028/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_TRNTY:
+  alias: Inflow to Claire Engle (Trinity) Lake
+  bpart: I_TRNTY
+  pathname: /CALSIM/I_TRNTY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_TULOC:
+  alias: Local inflow to Tullock Reservoir
+  bpart: I_TULOC
+  pathname: /CALSIM/I_TULOC/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_TUO054:
+  alias: Local inflow to Tuolumne River at LaGrange Dam
+  bpart: I_TUO054
+  pathname: /CALSIM/I_TUO054/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_UBEAR:
+  alias: Inflow to Upper Bear River Reservoir
+  bpart: I_UBEAR
+  pathname: /CALSIM/I_UBEAR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_UNVLY:
+  alias: Inflow to Union Valley Reservoir
+  bpart: I_UNVLY
+  pathname: /CALSIM/I_UNVLY/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WBF006:
+  alias: Local inflow to WB Feather River at Yankee Hill
+  bpart: I_WBF006
+  pathname: /CALSIM/I_WBF006/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WBF015:
+  alias: Local inflow to WB Feather River at Miocene Diversion Dam
+  bpart: I_WBF015
+  pathname: /CALSIM/I_WBF015/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WBF030:
+  alias: West Branch Feather River
+  bpart: I_WBF030
+  pathname: /CALSIM/I_WBF030/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WBR001:
+  alias: Weber Creek
+  bpart: I_WBR001
+  pathname: /CALSIM/I_WBR001/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WKYTN:
+  alias: Clear Creek inflow to Whiskeytown Lake
+  bpart: I_WKYTN
+  pathname: /CALSIM/I_WKYTN/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+I_WLF013:
+  alias: Wolf Creek
+  bpart: I_WLF013
+  pathname: /CALSIM/I_WLF013/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Inflow
+CT_BENDBRIDGE_SV:
+  alias: CT_BENDBRIDGE_SV
+  bpart: CT_BENDBRIDGE_SV
+  pathname: /CALSIM/CT_BENDBRIDGE_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_BUTTECITY_SV:
+  alias: CT_BUTTECITY_SV
+  bpart: CT_BUTTECITY_SV
+  pathname: /CALSIM/CT_BUTTECITY_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_COLUSA_SV:
+  alias: CT_COLUSA_SV
+  bpart: CT_COLUSA_SV
+  pathname: /CALSIM/CT_COLUSA_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_DAVIS_SV:
+  alias: CT_DAVIS_SV
+  bpart: CT_DAVIS_SV
+  pathname: /CALSIM/CT_DAVIS_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_FAIROAKS_SV:
+  alias: CT_FAIROAKS_SV
+  bpart: CT_FAIROAKS_SV
+  pathname: /CALSIM/CT_FAIROAKS_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_FREEPORT_SV:
+  alias: CT_FREEPORT_SV
+  bpart: CT_FREEPORT_SV
+  pathname: /CALSIM/CT_FREEPORT_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_GRAVELLYFORD_SV:
+  alias: CT_GRAVELLYFORD_SV
+  bpart: CT_GRAVELLYFORD_SV
+  pathname: /CALSIM/CT_GRAVELLYFORD_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_MELON_SV:
+  alias: CT_MELON_SV
+  bpart: CT_MELON_SV
+  pathname: /CALSIM/CT_MELON_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_MERCED_SV:
+  alias: CT_MERCED_SV
+  bpart: CT_MERCED_SV
+  pathname: /CALSIM/CT_MERCED_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_MODESTO_SV:
+  alias: CT_MODESTO_SV
+  bpart: CT_MODESTO_SV
+  pathname: /CALSIM/CT_MODESTO_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_MUDSLOUGH_SV:
+  alias: CT_MUDSLOUGH_SV
+  bpart: CT_MUDSLOUGH_SV
+  pathname: /CALSIM/CT_MUDSLOUGH_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_NICOLAUS_SV:
+  alias: CT_NICOLAUS_SV
+  bpart: CT_NICOLAUS_SV
+  pathname: /CALSIM/CT_NICOLAUS_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_OROVILLE_SV:
+  alias: CT_OROVILLE_SV
+  bpart: CT_OROVILLE_SV
+  pathname: /CALSIM/CT_OROVILLE_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_PARDE_SV:
+  alias: CT_PARDE_SV
+  bpart: CT_PARDE_SV
+  pathname: /CALSIM/CT_PARDE_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_PEDRO_SV:
+  alias: CT_PEDRO_SV
+  bpart: CT_PEDRO_SV
+  pathname: /CALSIM/CT_PEDRO_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_RIPON_SV:
+  alias: CT_RIPON_SV
+  bpart: CT_RIPON_SV
+  pathname: /CALSIM/CT_RIPON_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_SACSLOUGH_SV:
+  alias: CT_SACSLOUGH_SV
+  bpart: CT_SACSLOUGH_SV
+  pathname: /CALSIM/CT_SACSLOUGH_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_SALTSLOUGH_SV:
+  alias: CT_SALTSLOUGH_SV
+  bpart: CT_SALTSLOUGH_SV
+  pathname: /CALSIM/CT_SALTSLOUGH_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_SMARTVILLE_SV:
+  alias: CT_SMARTVILLE_SV
+  bpart: CT_SMARTVILLE_SV
+  pathname: /CALSIM/CT_SMARTVILLE_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_STEVINSON_SV:
+  alias: CT_STEVINSON_SV
+  bpart: CT_STEVINSON_SV
+  pathname: /CALSIM/CT_STEVINSON_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_VERNALIS_SV:
+  alias: CT_VERNALIS_SV
+  bpart: CT_VERNALIS_SV
+  pathname: /CALSIM/CT_VERNALIS_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_VERONA_SV:
+  alias: CT_VERONA_SV
+  bpart: CT_VERONA_SV
+  pathname: /CALSIM/CT_VERONA_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_WHEATLAND_SV:
+  alias: CT_WHEATLAND_SV
+  bpart: CT_WHEATLAND_SV
+  pathname: /CALSIM/CT_WHEATLAND_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_WILKINSSL_SV:
+  alias: CT_WILKINSSL_SV
+  bpart: CT_WILKINSSL_SV
+  pathname: /CALSIM/CT_WILKINSSL_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_WOODLAND_SV:
+  alias: CT_WOODLAND_SV
+  bpart: CT_WOODLAND_SV
+  pathname: /CALSIM/CT_WOODLAND_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
+CT_YOLO_SV:
+  alias: CT_YOLO_SV
+  bpart: CT_YOLO_SV
+  pathname: /CALSIM/CT_YOLO_SV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: SV - Closure Term
