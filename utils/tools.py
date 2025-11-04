@@ -108,6 +108,9 @@ def convert_wyt_nums(wytchecklist: Iterable[str]) -> list[str]:
     return wytfilter
 
 
+from pathlib import Path
+import pandas as pd
+
 def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv") -> None:
     """
     Load data from the selected DSS files into a .csv
@@ -143,15 +146,32 @@ def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv") 
 
         appended_data.append(dfi)
 
+    # ensure output dir exists
+    Path("output").mkdir(parents=True, exist_ok=True)
+
     if not appended_data:
         pd.DataFrame().to_csv(f"output/{outfile}")
         return
 
+    # --- align index types/granularity BEFORE merge ---
     # combine studies, round
     df = pd.concat(appended_data, axis=0).round(2)
+
+    # coerce both sides to tz-naive midnight timestamps so keys match
+    df.index = pd.to_datetime(df.index)
+    date_map.index = pd.to_datetime(date_map.index)
+
+    if getattr(df.index, "tz", None) is not None:
+        df.index = df.index.tz_convert(None)
+    if getattr(date_map.index, "tz", None) is not None:
+        date_map.index = date_map.index.tz_convert(None)
+
+    df.index = df.index.normalize()
+    date_map.index = date_map.index.normalize()
+
     df = pd.merge(df, date_map, left_index=True, right_index=True)
 
-    # reorder cols for better human readabilitly 
+    # reorder cols for better human readability
     meta_cols = ["Scenario", "Assumption", "Climate"]
     cols = [c for c in df.columns if c not in meta_cols]
     ordered_cols = meta_cols + cols
@@ -159,7 +179,6 @@ def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv") 
 
     # keep original behavior for CSV (index included by default)
     df.to_csv(f"output/{outfile}")
-
 
 
 def make_ressum_df(
