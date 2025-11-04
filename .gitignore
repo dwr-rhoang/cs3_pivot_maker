@@ -9,7 +9,7 @@ __pycache__/
 
 # Ignore output and temporary data
 output/
-*.csv
+
 *.xlsx
 *.tmp
 *.log
