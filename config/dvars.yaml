@@ -1742,6 +1742,14 @@ C_SJR013:
   table_display: wy
   type: Channel
   units: cfs
+C_SJR070:
+  alias: San Joaquin River at Vernalis
+  bpart: C_SJR070
+  pathname: /CALSIM/C_SJR070/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
 C_CSM001:
   alias: Consumnes River Inflow
   bpart: C_CSM001
@@ -1782,22 +1790,6 @@ C_SAC029B:
   table_display: wy
   type: Channel
   units: cfs
-DeltaAccretionforNDOI:
-  alias: In-Delta precipitation
-  bpart: DeltaAccretionforNDOI
-  pathname: /CALSIM/DeltaAccretionforNDOI/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Accretion/Depletion
-  units: cfs
-DeltaDepletionforNDOI:
-  alias: In-Delta depetion
-  bpart: DeltaDepletionforNDOI
-  pathname: /CALSIM/DeltaDepletionforNDOI/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Accretion/Depletion
-  units: cfs
 D_BKR004_NBA009:
   alias: North Bay Aqueduct
   bpart: D_BKR004_NBA009
@@ -1829,4 +1821,116 @@ D_VCT002_ORP000:
   table_convert: cfs_taf
   table_display: wy
   type: Diversion
+  units: cfs
+QwestFlowEstdv:
+  alias: QWEST Flow Estimation (Dayflow Definition)
+  bpart: QwestFlowEstdv
+  pathname: /CALSIM/QwestFlowEstdv/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Index
+  units: cfs
+C_SJR013_CYCJPOD:
+  alias: San Joaquin River Below Jersey Point (JPOD Cycle)
+  bpart: C_SJR013_CYCJPOD
+  pathname: /CALSIM/C_SJR013_CYCJPOD/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_OMR014_LBOUND:
+  alias: Old and Middle River flow Lower Bound
+  bpart: C_OMR014_LBOUND
+  pathname: /CALSIM/C_OMR014_LBOUND/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: OMR
+  units: cfs
+C_OMR014_LBOUND_ALT5:
+  alias: Old and Middle River flow Lower Bound (Alt5)
+  bpart: C_OMR014_LBOUND_ALT5
+  pathname: /CALSIM/C_OMR014_LBOUND_ALT5/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: OMR
+  units: cfs
+MAXEXP_OMR_SWPDV:
+  alias: SWP Max OMR Export
+  bpart: MAXEXP_OMR_SWPDV
+  pathname: /CALSIM/MAXEXP_OMR_SWPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: OMR
+  units: cfs
+MAXEXP_OMR_CVPDV:
+  alias: CVP Max OMR Export
+  bpart: MAXEXP_OMR_CVPDV
+  pathname: /CALSIM/MAXEXP_OMR_CVPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: OMR
+  units: cfs
+UNUSED_MAXEXP_OMR_ALT5DV:
+  alias: Unused CVP OMR Capacity (Alt 5 method)
+  bpart: UNUSED_MAXEXP_OMR_ALT5DV
+  pathname: /CALSIM/UNUSED_MAXEXP_OMR_ALT5DV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+UNUSED_MAXEXP_OMR_SWP_ALT5DV:
+  alias: Unused SWP OMR Capacity (Alt 5 method)
+  bpart: UNUSED_MAXEXP_OMR_SWP_ALT5DV
+  pathname: /CALSIM/UNUSED_MAXEXP_OMR_SWP_ALT5DV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+UNUSED_MAXEXP_OMR_CVPDV:
+  alias: Unused CVP OMR Capacity (LTO Method)
+  bpart: UNUSED_MAXEXP_OMR_CVPDV
+  pathname: /CALSIM/UNUSED_MAXEXP_OMR_CVPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+UNUSED_MAXEXP_OMR_SWPDV:
+  alias: Unused SWP OMR Capacity (LTO Method)
+  bpart: UNUSED_MAXEXP_OMR_SWPDV
+  pathname: /CALSIM/UNUSED_MAXEXP_OMR_SWPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+BALANCED_OMR:
+  alias: OMR Control (LTO Method)
+  bpart: BALANCED_OMR
+  pathname: /CALSIM/BALANCED_OMR/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+BALANCED_OMR_ALT5_:
+  alias: OMR Control (Alt5 Method)
+  bpart: BALANCED_OMR_ALT5_
+  pathname: /CALSIM/BALANCED_OMR_ALT5_/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+FINAL_UNUSED_MAXEXP_OMR_CVPDV:
+  alias:
+  bpart: FINAL_UNUSED_MAXEXP_OMR_CVPDV
+  pathname: /CALSIM/FINAL_UNUSED_MAXEXP_OMR_CVPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
+  units: cfs
+FINAL_UNUSED_MAXEXP_OMR_SWPDV:
+  alias:
+  bpart: FINAL_UNUSED_MAXEXP_OMR_SWPDV
+  pathname: /CALSIM/FINAL_UNUSED_MAXEXP_OMR_SWPDV/.*//.*/.*/
+  table_convert: cfs_taf
+  table_display: wy
+  type: TEMP
   units: cfs
