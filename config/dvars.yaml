@@ -1,1935 +1,1433 @@
 CVPTOTALDEL:
   alias: Delivery - CVP Delivery SOD
-  bpart: CVPTOTALDEL
-  pathname: /CALSIM/CVPTOTALDEL/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Delivery
   units: cfs
 C_CAA003:
   alias: Total Banks Exports
-  bpart: C_CAA003
-  pathname: /CALSIM/C_CAA003/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
-  units: cfs  
+  units: cfs
 C_CAA003_CVC:
   alias: Other - Banks Export Cross Valley Pumping
-  bpart: C_CAA003_CVC
-  pathname: /CALSIM/C_CAA003_CVC/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_CVP:
   alias: Banks CVP Exports
-  bpart: C_CAA003_CVP
-  pathname: /CALSIM/C_CAA003_CVP/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_IF:
   alias: Other - Banks PP North Delta
-  bpart: C_CAA003_IF
-  pathname: /CALSIM/C_CAA003_IF/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_SWP:
   alias: Banks SWP Exports
-  bpart: C_CAA003_SWP
-  pathname: /CALSIM/C_CAA003_SWP/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_SWP_TD:
   alias: Other - Banks PP SWP Through Delta
-  bpart: C_CAA003_SWP_TD
-  pathname: /CALSIM/C_CAA003_SWP_TD/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_TD:
   alias: Other - Banks PP Through Delta
-  bpart: C_CAA003_TD
-  pathname: /CALSIM/C_CAA003_TD/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_CAA003_WTS:
   alias: Banks Export WTS
-  bpart: C_CAA003_WTS
-  pathname: /CALSIM/C_CAA003_WTS/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_DMC000:
   alias: Total Jones Exports
-  bpart: C_DMC000
-  pathname: /CALSIM/C_DMC000/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_DMC000_CVP:
   alias: Jones CVP Exports
-  bpart: C_DMC000_CVP
-  pathname: /CALSIM/C_DMC000_CVP/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_DMC000_IF:
   alias: Other - Jones PP North Delta
-  bpart: C_DMC000_IF
-  pathname: /CALSIM/C_DMC000_IF/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_DMC000_TD:
   alias: Other - Jones PP Through Delta
-  bpart: C_DMC000_TD
-  pathname: /CALSIM/C_DMC000_TD/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Export
   units: cfs
 C_OMR014:
   alias: Old and Middle River flow
-  bpart: C_OMR014
-  pathname: /CALSIM/C_OMR014/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Delta
   units: cfs
 C_SAC000:
   alias: Total Delta Outflow
-  bpart: C_SAC000
-  pathname: /CALSIM/C_SAC000/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Delta
   units: cfs
 C_SAC017:
   alias: Delta - Flow at Rio Vista
-  bpart: C_SAC017
-  pathname: /CALSIM/C_SAC017/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Delta
   units: cfs
 C_SAC029B:
-  alias: Delta - Flow at Georgiana Slough
-  bpart: C_SAC029B
-  pathname: /CALSIM/C_SAC029B/.*//.*/.*/
+  alias: Flow from Sacramento River through Georgiana Slough
   table_convert: cfs_taf
   table_display: wy
-  type: Delta
+  type: Channel
   units: cfs
 C_SAC030:
   alias: Delta - Flow below DXC
-  bpart: C_SAC030
-  pathname: /CALSIM/C_SAC030/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Delta
   units: cfs
 C_SAC041:
   alias: Sac R. Flow at Hood
-  bpart: C_SAC041
-  pathname: /CALSIM/C_SAC041/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 C_SAC048:
   alias: Sac R. Flow at Freeport
-  bpart: C_SAC048
-  pathname: /CALSIM/C_SAC048/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 C_SAC083:
   alias: Sac R. Flow at Verona
-  bpart: C_SAC083
-  pathname: /CALSIM/C_SAC083/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 C_SAC085:
   alias: Sac R. Flow Above Fremont Weir
-  bpart: C_SAC085
-  pathname: /CALSIM/C_SAC085/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 C_SAC097:
   alias: Sac R. Flow at Wilkins Slough
-  bpart: C_SAC097
-  pathname: /CALSIM/C_SAC097/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 C_SAC240:
   alias: Sac R. Flow at RedBluff
-  bpart: C_SAC240
-  pathname: /CALSIM/C_SAC240/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Upstream Flows
   units: cfs
 D408:
   alias: Delta - CCWD
-  bpart: D408
-  pathname: /CALSIM/D408/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DELTAINFLOWFORNDOI:
-  alias: Delta - Delta Inflow (NDOI)
-  bpart: DELTAINFLOWFORNDOI
-  pathname: /CALSIM/DELTAINFLOWFORNDOI/.*//.*/.*/
+  alias: Delta Inflow
   table_convert: cfs_taf
   table_display: wy
-  type: Channel
+  type: Delta
   units: cfs
 DELTARDV_TOTAL:
   alias: Delivery - SWP Del Target TA + CO
-  bpart: DELTARDV_TOTAL
-  pathname: /CALSIM/DELTARDV_TOTAL/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DELTAR_A_DV:
   alias: Delivery - SWP Del Target TA
-  bpart: DELTAR_A_DV
-  pathname: /CALSIM/DELTAR_A_DV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PAG_N:
   alias: Delivery - CVP Delivery PAG N
-  bpart: DEL_CVP_PAG_N
-  pathname: /CALSIM/DEL_CVP_PAG_N/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PAG_S:
   alias: Delivery - CVP Delivery PAG S
-  bpart: DEL_CVP_PAG_S
-  pathname: /CALSIM/DEL_CVP_PAG_S/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PEX_S:
   alias: Delivery - CVP Delivery PEX S
-  bpart: DEL_CVP_PEX_S
-  pathname: /CALSIM/DEL_CVP_PEX_S/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PMI_S:
   alias: Delivery - CVP Delivery PMI S
-  bpart: DEL_CVP_PMI_S
-  pathname: /CALSIM/DEL_CVP_PMI_S/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PRF_N:
   alias: Delivery - CVP Delivery PRF N
-  bpart: DEL_CVP_PRF_N
-  pathname: /CALSIM/DEL_CVP_PRF_N/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PRF_S:
   alias: Delivery - CVP Delivery PRF S
-  bpart: DEL_CVP_PRF_S
-  pathname: /CALSIM/DEL_CVP_PRF_S/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_PSC_N:
   alias: Delivery - CVP Delivery PSC N
-  bpart: DEL_CVP_PSC_N
-  pathname: /CALSIM/DEL_CVP_PSC_N/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_TOTAL_N:
   alias: Delivery - CVP Delivery NOD
-  bpart: DEL_CVP_TOTAL_N
-  pathname: /CALSIM/DEL_CVP_TOTAL_N/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_CVP_TOTAL_S:
   alias: Delivery - CVP Delivery SOD no CVC
-  bpart: DEL_CVP_TOTAL_S
-  pathname: /CALSIM/DEL_CVP_TOTAL_S/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 DEL_SWP_PIN:
   alias: Other - SWP Delivery Int
-  bpart: DEL_SWP_PIN
-  pathname: /CALSIM/DEL_SWP_PIN/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 D_OMR027_CAA000:
   alias: Delta - Banks Exports
-  bpart: D_OMR027_CAA000
-  pathname: /CALSIM/D_OMR027_CAA000/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 D_OMR028_DMC000:
   alias: Delta - Jones Exports
-  bpart: D_OMR028_DMC000
-  pathname: /CALSIM/D_OMR028_DMC000/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-D_SAC030_MOK014:
-  alias: Delta - DXC Flow
-  bpart: D_SAC030_MOK014
-  pathname: /CALSIM/D_SAC030_MOK014/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-EM_EC_MONTH:
-  alias: Salinity - EM EC
-  bpart: EM_EC_MONTH
-  pathname: /CALSIM/EM_EC_MONTH/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: ec
-EXPORTACTUALIF:
-  alias: Delta - Total NDD Exports
-  bpart: EXPORTACTUALIF
-  pathname: /CALSIM/EXPORTACTUALIF/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-EXPORTACTUALTD:
-  alias: Delta - Total TD Exports
-  bpart: EXPORTACTUALTD
-  pathname: /CALSIM/EXPORTACTUALTD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-JP_EC_MONTH:
-  alias: Salinity - JP EC
-  bpart: JP_EC_MONTH
-  pathname: /CALSIM/JP_EC_MONTH/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-MRDO_FINALDV:
-  alias: Delta - Modeled Required DO
-  bpart: MRDO_FINALDV
-  pathname: /CALSIM/MRDO_FINALDV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI:
-  alias: Delta - Delta Outflow (NDOI)
-  bpart: NDOI
-  pathname: /CALSIM/NDOI/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI_ADD:
-  alias: Delta - Additional Delta Outflow (NDOI)
-  bpart: NDOI_ADD
-  pathname: /CALSIM/NDOI_ADD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI_ADD_ANN:
-  alias: Delta - Additional Outflow for ANN (NDOI)
-  bpart: NDOI_ADD_ANN
-  pathname: /CALSIM/NDOI_ADD_ANN/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI_ADD_CVP:
-  alias: Delta - Additional Outflow for CVP (NDOI)
-  bpart: NDOI_ADD_CVP
-  pathname: /CALSIM/NDOI_ADD_CVP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI_ADD_SWP:
-  alias: Delta - Additional Outflow for SWP (NDOI)
-  bpart: NDOI_ADD_SWP
-  pathname: /CALSIM/NDOI_ADD_SWP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-NDOI_MIN:
-  alias: Delta - Required Delta Outflow for NDO and X2
-  bpart: NDOI_MIN
-  pathname: /CALSIM/NDOI_MIN/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: cfs
-PERDV_CVPAG_S:
-  alias: Delivery - CVP Allocation (SOD Ag)
-  bpart: PERDV_CVPAG_S
-  pathname: /CALSIM/PERDV_CVPAG_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_CVPAG_SYS:
-  alias: Delivery - CVP Allocation (NOD Ag)
-  bpart: PERDV_CVPAG_SYS
-  pathname: /CALSIM/PERDV_CVPAG_SYS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent  
-PERDV_CVPEX_S:
-  alias: Delivery - CVP Allocation (SOD EX)
-  bpart: PERDV_CVPEX_S
-  pathname: /CALSIM/PERDV_CVPEX_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent  
-PERDV_CVPMI_S:
-  alias: Delivery - CVP Allocation (SOD M&I)
-  bpart: PERDV_CVPMI_S
-  pathname: /CALSIM/PERDV_CVPMI_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_CVPMI_SYS:
-  alias: Delivery - CVP Allocation (NOD M&I)
-  bpart: PERDV_CVPMI_SYS
-  pathname: /CALSIM/PERDV_CVPMI_SYS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_CVPRF_S:
-  alias: Delivery - CVP Allocation (SOD RF)
-  bpart: PERDV_CVPRF_S
-  pathname: /CALSIM/PERDV_CVPRF_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_CVPRF_SYS:
-  alias: Delivery - CVP Allocation (NOD RF)
-  bpart: PERDV_CVPRF_SYS
-  pathname: /CALSIM/PERDV_CVPRF_SYS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_CVPSC_SYS:
-  alias: Delivery - CVP Allocation (NOD SC)
-  bpart: PERDV_CVPSC_SYS
-  pathname: /CALSIM/PERDV_CVPSC_SYS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_SWP_FSC:
-  alias: Other - SWP Allocation (FRSA)
-  bpart: PERDV_SWP_FSC
-  pathname: /CALSIM/PERDV_SWP_FSC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-PERDV_SWP_MWD1:
-  alias: Other - SWP Allocation (M&I)
-  bpart: PERDV_SWP_MWD1
-  pathname: /CALSIM/PERDV_SWP_MWD1/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Allocation
-  units: percent
-RS_EC_MONTH:
-  alias: Salinity - RS EC
-  bpart: RS_EC_MONTH
-  pathname: /CALSIM/RS_EC_MONTH/.*//.*/.*/
-  table_convert: null
-  table_display: wy
-  type: Salinity
-  units: ec
-SHORT_CVP_TOT_N:
-  alias: Delivery - SHORT_CVP_TOT_N
-  bpart: SHORT_CVP_TOT_N
-  pathname: /CALSIM/SHORT_CVP_TOT_N/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Shortage
-  units: cfs
-SHORT_CVP_TOT_S:
-  alias: Delivery - SHORT_CVP_TOT_S
-  bpart: SHORT_CVP_TOT_S
-  pathname: /CALSIM/SHORT_CVP_TOT_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Shortage
-  units: cfs
-SHORT_SWP_TOTA:
-  alias: Other - SHORT_SWP_TOTAL (Cumulative)
-  bpart: SHORT_SWP_TOTA
-  pathname: /CALSIM/SHORT_SWP_TOTA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: 12
-  type: Shortage
-  units: cfs
-SHORT_SWP_TOT_S:
-  alias: Other - SWP South of Delta Shortage (Cumulative)
-  bpart: SHORT_SWP_TOT_S
-  pathname: /CALSIM/SHORT_SWP_TOT_S/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: 12
-  type: Shortage
-  units: cfs
-SHORT_SWP_TOT_N:
-  alias: Other - SWP North of Delta Shortage (Cumulative)
-  bpart: SHORT_SWP_TOT_N
-  pathname: /CALSIM/SHORT_SWP_TOT_N/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: 12
-  type: Shortage
-  units: cfs
-SP_SAC066_YBP020:
-  alias: Upstream Flows - Sacramento Weir spills
-  bpart: SP_SAC066_YBP020
-  pathname: /CALSIM/SP_SAC066_YBP020/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SP_SAC083_YBP037:
-  alias: Upstream Flows - Fremont Weir spills
-  bpart: SP_SAC083_YBP037
-  pathname: /CALSIM/SP_SAC083_YBP037/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_CO_FEATH:
-  alias: Delivery - SWP_CO_FEATH
-  bpart: SWP_CO_FEATH
-  pathname: /CALSIM/SWP_CO_FEATH/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_CO_NBAY:
-  alias: Delivery - SWP_CO_NBAY
-  bpart: SWP_CO_NBAY
-  pathname: /CALSIM/SWP_CO_NBAY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_CO_TOTAL:
-  alias: SWP Carryover Deliveries
-  bpart: SWP_CO_TOTAL
-  pathname: /CALSIM/SWP_CO_TOTAL/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery
-  units: cfs
-SWP_IN_FEATH:
-  alias: Delivery - SWP_IN_FEATH
-  bpart: SWP_IN_FEATH
-  pathname: /CALSIM/SWP_IN_FEATH/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_IN_NBAY:
-  alias: Delivery - SWP_IN_NBAY
-  bpart: SWP_IN_NBAY
-  pathname: /CALSIM/SWP_IN_NBAY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_IN_TOTAL:
-  alias: SWP Article 21 Deliveries
-  bpart: SWP_IN_TOTAL
-  pathname: /CALSIM/SWP_IN_TOTAL/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery
-  units: cfs
-SWP_LOSS:
-  alias: Delivery - SWP_LOSS
-  bpart: SWP_LOSS
-  pathname: /CALSIM/SWP_LOSS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_PERDELDV:
-  alias: Delivery - SWP PERCENT DELIVERY
-  bpart: SWP_PERDELDV
-  pathname: /CALSIM/SWP_PERDELDV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_TA_FEATH:
-  alias: Delivery - SWP_TA_FEATH
-  bpart: SWP_TA_FEATH
-  pathname: /CALSIM/SWP_TA_FEATH/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_TA_NBAY:
-  alias: Delivery - SWP_TA_NBAY
-  bpart: SWP_TA_NBAY
-  pathname: /CALSIM/SWP_TA_NBAY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-SWP_TA_TOTAL:
-  alias: SWP Table A Deliveries
-  bpart: SWP_TA_TOTAL
-  pathname: /CALSIM/SWP_TA_TOTAL/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery
-  units: cfs
-S_FOLSM:
-  alias: Storage - Folsom Storage
-  bpart: S_FOLSM
-  pathname: /CALSIM/S_FOLSM/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_MCLRE:
-  alias: Storage - McClure Storage
-  bpart: S_MCLRE
-  pathname: /CALSIM/S_MCLRE/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_MELON:
-  alias: Storage - New Melones Storage
-  bpart: S_MELON
-  pathname: /CALSIM/S_MELON/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_MLRTN:
-  alias: Storage - Friant Storage
-  bpart: S_MLRTN
-  pathname: /CALSIM/S_MLRTN/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_OROVL:
-  alias: Storage - Oroville Storage
-  bpart: S_OROVL
-  pathname: /CALSIM/S_OROVL/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_PEDRO:
-  alias: Storage - New Don Pedro Storage
-  bpart: S_PEDRO
-  pathname: /CALSIM/S_PEDRO/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_SHSTA:
-  alias: Storage - Shasta Storage
-  bpart: S_SHSTA
-  pathname: /CALSIM/S_SHSTA/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_SLUIS_CVP:
-  alias: Storage - San Luis Storage - CVP
-  bpart: S_SLUIS_CVP
-  pathname: /CALSIM/S_SLUIS_CVP/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_SLUIS_SWP:
-  alias: Storage - San Luis Storage - SWP
-  bpart: S_SLUIS_SWP
-  pathname: /CALSIM/S_SLUIS_SWP/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_TRNTY:
-  alias: Storage - Trinity Storage
-  bpart: S_TRNTY
-  pathname: /CALSIM/S_TRNTY/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_WKYTN:
-  alias: Storage - Whiskeytown
-  bpart: S_WKYTN
-  pathname: /CALSIM/S_WKYTN/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-S_LOSVQ:
-  alias: Storage - Los Vaqueros Reservoir
-  bpart: S_LOSVQ
-  pathname: /CALSIM/S_LOSVQ/.*//.*/.*/
-  table_convert: orig
-  table_display: 9
-  type: Reservoir Storage
-  units: taf
-WYT_SAC_:
-  alias: Sacramento Valley Index (SVI) WYT Classification
-  bpart: WYT_SAC_
-  pathname: /CALSIM/WYT_SAC_/.*//.*/.*/
-  table_convert: orig
-  table_display: 5
-  type: Channel
-  units: index
-X2_PRV:
-  alias: Salinity - X2 Position prev
-  bpart: X2_PRV
-  pathname: /CALSIM/X2_PRV/.*//.*/.*/
-  table_convert: orig
-  table_display: wy
-  type: Channel
-  units: km
-DELTAINFLOWFORNDOI:
-  alias: Delta Inflow
-  bpart: DELTAINFLOWFORNDOI
-  pathname: /CALSIM/DELTAINFLOWFORNDOI/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delta
-  units: cfs
-SWP_CO_ACFC:
-  alias: Alameda County FC&WCD, Zone 7
-  bpart: SWP_CO_ACFC
-  pathname: /CALSIM/SWP_CO_ACFC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_ACWD:
-  alias: Alameda County WD
-  bpart: SWP_CO_ACWD
-  pathname: /CALSIM/SWP_CO_ACWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_AVEK:
-  alias: Antelope Valley-East Kern WA
-  bpart: SWP_CO_AVEK
-  pathname: /CALSIM/SWP_CO_AVEK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_CLA:
-  alias: Crestline-Line Arrowhead WA
-  bpart: SWP_CO_CLA
-  pathname: /CALSIM/SWP_CO_CLA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_CLWA1:
-  alias: Santa Clarita WA (San Joaquin)
-  bpart: SWP_CO_CLWA1
-  pathname: /CALSIM/SWP_CO_CLWA1/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_CLWA2:
-  alias: Santa Clarita WA (South Coast)
-  bpart: SWP_CO_CLWA2
-  pathname: /CALSIM/SWP_CO_CLWA2/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_CVWD:
-  alias: Coachella Valley WD
-  bpart: SWP_CO_CVWD
-  pathname: /CALSIM/SWP_CO_CVWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_DESERT:
-  alias: Desert WA
-  bpart: SWP_CO_DESERT
-  pathname: /CALSIM/SWP_CO_DESERT/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_DUDLEY:
-  alias: Dudley Ridge WD
-  bpart: SWP_CO_DUDLEY
-  pathname: /CALSIM/SWP_CO_DUDLEY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_EMPIRE:
-  alias: Empire West Side ID
-  bpart: SWP_CO_EMPIRE
-  pathname: /CALSIM/SWP_CO_EMPIRE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_KERN:
-  alias: Kern Counta WA
-  bpart: SWP_CO_KERN
-  pathname: /CALSIM/SWP_CO_KERN/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_KINGS:
-  alias: County of Kings
-  bpart: SWP_CO_KINGS
-  pathname: /CALSIM/SWP_CO_KINGS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_LCID:
-  alias: Littlerock Creek ID
-  bpart: SWP_CO_LCID
-  pathname: /CALSIM/SWP_CO_LCID/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_MWA:
-  alias: Mojave WA
-  bpart: SWP_CO_MWA
-  pathname: /CALSIM/SWP_CO_MWA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_MWD:
-  alias: Metropolitan WDSC
-  bpart: SWP_CO_MWD
-  pathname: /CALSIM/SWP_CO_MWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_NAPA:
-  alias: Napa County FC&WCD
-  bpart: SWP_CO_NAPA
-  pathname: /CALSIM/SWP_CO_NAPA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_OAK:
-  alias: Oak Flat WD
-  bpart: SWP_CO_OAK
-  pathname: /CALSIM/SWP_CO_OAK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_PWD:
-  alias: Palmdale WD
-  bpart: SWP_CO_PWD
-  pathname: /CALSIM/SWP_CO_PWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SB:
-  alias: Santa Barbara County FC&WCD
-  bpart: SWP_CO_SB
-  pathname: /CALSIM/SWP_CO_SB/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SBV:
-  alias: San Bernadino Valley MWD
-  bpart: SWP_CO_SBV
-  pathname: /CALSIM/SWP_CO_SBV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SCV:
-  alias: Santa Clara Valley WD
-  bpart: SWP_CO_SCV
-  pathname: /CALSIM/SWP_CO_SCV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SGP:
-  alias: San Gorgonio Pass WA
-  bpart: SWP_CO_SGP
-  pathname: /CALSIM/SWP_CO_SGP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SGV:
-  alias: San Gabriel Valley MWD
-  bpart: SWP_CO_SGV
-  pathname: /CALSIM/SWP_CO_SGV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SLO:
-  alias: San Luis Obispo County FC&WCD
-  bpart: SWP_CO_SLO
-  pathname: /CALSIM/SWP_CO_SLO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_SOLANO:
-  alias: Solano County WA
-  bpart: SWP_CO_SOLANO
-  pathname: /CALSIM/SWP_CO_SOLANO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_TULARE:
-  alias: Tulare Lake Basin WSD
-  bpart: SWP_CO_TULARE
-  pathname: /CALSIM/SWP_CO_TULARE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_CO_VC:
-  alias: Ventura County FCD
-  bpart: SWP_CO_VC
-  pathname: /CALSIM/SWP_CO_VC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - CO
-  units: cfs
-SWP_IN_ACFC:
-  alias: Alameda County FC&WCD, Zone 7
-  bpart: SWP_IN_ACFC
-  pathname: /CALSIM/SWP_IN_ACFC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_ACWD:
-  alias: Alameda County WD
-  bpart: SWP_IN_ACWD
-  pathname: /CALSIM/SWP_IN_ACWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_AVEK:
-  alias: Antelope Valley-East Kern WA
-  bpart: SWP_IN_AVEK
-  pathname: /CALSIM/SWP_IN_AVEK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_CLA:
-  alias: Crestline-Line Arrowhead WA
-  bpart: SWP_IN_CLA
-  pathname: /CALSIM/SWP_IN_CLA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_CLWA1:
-  alias: Santa Clarita WA (San Joaquin)
-  bpart: SWP_IN_CLWA1
-  pathname: /CALSIM/SWP_IN_CLWA1/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_CLWA2:
-  alias: Santa Clarita WA (South Coast)
-  bpart: SWP_IN_CLWA2
-  pathname: /CALSIM/SWP_IN_CLWA2/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_CVWD:
-  alias: Coachella Valley WD
-  bpart: SWP_IN_CVWD
-  pathname: /CALSIM/SWP_IN_CVWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_DESERT:
-  alias: Desert WA
-  bpart: SWP_IN_DESERT
-  pathname: /CALSIM/SWP_IN_DESERT/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_DUDLEY:
-  alias: Dudley Ridge WD
-  bpart: SWP_IN_DUDLEY
-  pathname: /CALSIM/SWP_IN_DUDLEY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_EMPIRE:
-  alias: Empire West Side ID
-  bpart: SWP_IN_EMPIRE
-  pathname: /CALSIM/SWP_IN_EMPIRE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_KERN:
-  alias: Kern Counta WA
-  bpart: SWP_IN_KERN
-  pathname: /CALSIM/SWP_IN_KERN/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_KINGS:
-  alias: County of Kings
-  bpart: SWP_IN_KINGS
-  pathname: /CALSIM/SWP_IN_KINGS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_LCID:
-  alias: Littlerock Creek ID
-  bpart: SWP_IN_LCID
-  pathname: /CALSIM/SWP_IN_LCID/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_MWA:
-  alias: Mojave WA
-  bpart: SWP_IN_MWA
-  pathname: /CALSIM/SWP_IN_MWA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_MWD:
-  alias: Metropolitan WDSC
-  bpart: SWP_IN_MWD
-  pathname: /CALSIM/SWP_IN_MWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_NAPA:
-  alias: Napa County FC&WCD
-  bpart: SWP_IN_NAPA
-  pathname: /CALSIM/SWP_IN_NAPA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_OAK:
-  alias: Oak Flat WD
-  bpart: SWP_IN_OAK
-  pathname: /CALSIM/SWP_IN_OAK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_PWD:
-  alias: Palmdale WD
-  bpart: SWP_IN_PWD
-  pathname: /CALSIM/SWP_IN_PWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SB:
-  alias: Santa Barbara County FC&WCD
-  bpart: SWP_IN_SB
-  pathname: /CALSIM/SWP_IN_SB/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SBV:
-  alias: San Bernadino Valley MWD
-  bpart: SWP_IN_SBV
-  pathname: /CALSIM/SWP_IN_SBV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SCV:
-  alias: Santa Clara Valley WD
-  bpart: SWP_IN_SCV
-  pathname: /CALSIM/SWP_IN_SCV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SGP:
-  alias: San Gorgonio Pass WA
-  bpart: SWP_IN_SGP
-  pathname: /CALSIM/SWP_IN_SGP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SGV:
-  alias: San Gabriel Valley MWD
-  bpart: SWP_IN_SGV
-  pathname: /CALSIM/SWP_IN_SGV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SLO:
-  alias: San Luis Obispo County FC&WCD
-  bpart: SWP_IN_SLO
-  pathname: /CALSIM/SWP_IN_SLO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_SOLANO:
-  alias: Solano County WA
-  bpart: SWP_IN_SOLANO
-  pathname: /CALSIM/SWP_IN_SOLANO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_TULARE:
-  alias: Tulare Lake Basin WSD
-  bpart: SWP_IN_TULARE
-  pathname: /CALSIM/SWP_IN_TULARE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_IN_VC:
-  alias: Ventura County FCD
-  bpart: SWP_IN_VC
-  pathname: /CALSIM/SWP_IN_VC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - IN
-  units: cfs
-SWP_TA_ACFC:
-  alias: Alameda County FC&WCD, Zone 7
-  bpart: SWP_TA_ACFC
-  pathname: /CALSIM/SWP_TA_ACFC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_ACWD:
-  alias: Alameda County WD
-  bpart: SWP_TA_ACWD
-  pathname: /CALSIM/SWP_TA_ACWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_AVEK:
-  alias: Antelope Valley-East Kern WA
-  bpart: SWP_TA_AVEK
-  pathname: /CALSIM/SWP_TA_AVEK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_CLA:
-  alias: Crestline-Line Arrowhead WA
-  bpart: SWP_TA_CLA
-  pathname: /CALSIM/SWP_TA_CLA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_CLWA1:
-  alias: Santa Clarita WA (San Joaquin)
-  bpart: SWP_TA_CLWA1
-  pathname: /CALSIM/SWP_TA_CLWA1/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_CLWA2:
-  alias: Santa Clarita WA (South Coast)
-  bpart: SWP_TA_CLWA2
-  pathname: /CALSIM/SWP_TA_CLWA2/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_CVWD:
-  alias: Coachella Valley WD
-  bpart: SWP_TA_CVWD
-  pathname: /CALSIM/SWP_TA_CVWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_DESERT:
-  alias: Desert WA
-  bpart: SWP_TA_DESERT
-  pathname: /CALSIM/SWP_TA_DESERT/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_DUDLEY:
-  alias: Dudley Ridge WD
-  bpart: SWP_TA_DUDLEY
-  pathname: /CALSIM/SWP_TA_DUDLEY/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_EMPIRE:
-  alias: Empire West Side ID
-  bpart: SWP_TA_EMPIRE
-  pathname: /CALSIM/SWP_TA_EMPIRE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_KERNAG:
-  alias: Kern County WA (Ag)
-  bpart: SWP_TA_KERNAG
-  pathname: /CALSIM/SWP_TA_KERNAG/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_KERNMI:
-  alias: Kern County WA (MI)
-  bpart: SWP_TA_KERNMI
-  pathname: /CALSIM/SWP_TA_KERNMI/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_KINGS:
-  alias: County of Kings
-  bpart: SWP_TA_KINGS
-  pathname: /CALSIM/SWP_TA_KINGS/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_LCID:
-  alias: Littlerock Creek ID
-  bpart: SWP_TA_LCID
-  pathname: /CALSIM/SWP_TA_LCID/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_MWA:
-  alias: Mojave WA
-  bpart: SWP_TA_MWA
-  pathname: /CALSIM/SWP_TA_MWA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_MWD:
-  alias: Metropolitan WDSC
-  bpart: SWP_TA_MWD
-  pathname: /CALSIM/SWP_TA_MWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_NAPA:
-  alias: Napa County FC&WCD
-  bpart: SWP_TA_NAPA
-  pathname: /CALSIM/SWP_TA_NAPA/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_OAK:
-  alias: Oak Flat WD
-  bpart: SWP_TA_OAK
-  pathname: /CALSIM/SWP_TA_OAK/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_PWD:
-  alias: Palmdale WD
-  bpart: SWP_TA_PWD
-  pathname: /CALSIM/SWP_TA_PWD/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SB:
-  alias: Santa Barbara County FC&WCD
-  bpart: SWP_TA_SB
-  pathname: /CALSIM/SWP_TA_SB/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SBV:
-  alias: San Bernadino Valley MWD
-  bpart: SWP_TA_SBV
-  pathname: /CALSIM/SWP_TA_SBV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SCV:
-  alias: Santa Clara Valley WD
-  bpart: SWP_TA_SCV
-  pathname: /CALSIM/SWP_TA_SCV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SGP:
-  alias: San Gorgonio Pass WA
-  bpart: SWP_TA_SGP
-  pathname: /CALSIM/SWP_TA_SGP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SGV:
-  alias: San Gabriel Valley MWD
-  bpart: SWP_TA_SGV
-  pathname: /CALSIM/SWP_TA_SGV/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SLO:
-  alias: San Luis Obispo County FC&WCD
-  bpart: SWP_TA_SLO
-  pathname: /CALSIM/SWP_TA_SLO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_SOLANO:
-  alias: Solano County WA
-  bpart: SWP_TA_SOLANO
-  pathname: /CALSIM/SWP_TA_SOLANO/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_TULARE:
-  alias: Tulare Lake Basin WSD
-  bpart: SWP_TA_TULARE
-  pathname: /CALSIM/SWP_TA_TULARE/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-SWP_TA_VC:
-  alias: Ventura County FCD
-  bpart: SWP_TA_VC
-  pathname: /CALSIM/SWP_TA_VC/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery - TA
-  units: cfs
-C_CAA087:
-  alias: Dos Amigos Pumping Plant
-  bpart: C_CAA087
-  pathname: /CALSIM/C_CAA087/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA087_CVP:
-  alias: Dos Amigos Pumping Plant (CVP)
-  bpart: C_CAA087_CVP
-  pathname: /CALSIM/C_CAA087_CVP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery
-  units: cfs
-C_CAA087_SWP:
-  alias: Dos Amigos Pumping Plant (SWP)
-  bpart: C_CAA087_SWP
-  pathname: /CALSIM/C_CAA087_SWP/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Delivery
-  units: cfs
-C_CAA095:
-  alias: Pool 15 (SLC)
-  bpart: C_CAA095
-  pathname: /CALSIM/C_CAA095/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA109:
-  alias: Pool 16 (SLC)
-  bpart: C_CAA109
-  pathname: /CALSIM/C_CAA109/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA143:
-  alias: Pool 19 (SLC)
-  bpart: C_CAA143
-  pathname: /CALSIM/C_CAA143/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA155:
-  alias: Pool 20 (SLC)
-  bpart: C_CAA155
-  pathname: /CALSIM/C_CAA155/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA156:
-  alias: Pool 20 (SLC) Delivery to Avenal, Coalinga, Huron
-  bpart: C_CAA156 
-  pathname: /CALSIM/C_CAA156/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA165:
-  alias: Pool 21 (SLC)
-  bpart: C_CAA165
-  pathname: /CALSIM/C_CAA165/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA172:
-  alias: Pool 22
-  bpart: C_CAA172
-  pathname: /CALSIM/C_CAA172/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA173:
-  alias: Pool 22, SWP Reach 8C
-  bpart: C_CAA173
-  pathname: /CALSIM/C_CAA173/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA181:
-  alias: Pool 22, SWP Reach 8C  County Of Kings
-  bpart: C_CAA181
-  pathname: /CALSIM/C_CAA181/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA183:
-  alias: Pool 22, 8C-8D  Tulare Lake Basin Wsd
-  bpart: C_CAA183
-  pathname: /CALSIM/C_CAA183/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA184:
-  alias: Pool 22, SWP Reach 8D  Dudley Ridge WD
-  bpart: C_CAA184
-  pathname: /CALSIM/C_CAA184/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA185:
-  alias: Pool 22, SWP Aqueduct Downstream of Bifurcation To Coastal Br
-  bpart: C_CAA185
-  pathname: /CALSIM/C_CAA185/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA194:
-  alias: Pool 23, SWP Reach 9-13B  KCWA
-  bpart: C_CAA194
-  pathname: /CALSIM/C_CAA194/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA207:
-  alias: Pool 24, KWB  Semitropic Element Diversion
-  bpart: C_CAA207
-  pathname: /CALSIM/C_CAA207/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA210:
-  alias: Pool 25, KCWA & KWB  Semitropic Return
-  bpart: C_CAA210
-  pathname: /CALSIM/C_CAA210/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA220:
-  alias: Pool 26
-  bpart: C_CAA220
-  pathname: /CALSIM/C_CAA220/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA225:
-  alias: Pool 27
-  bpart: C_CAA225
-  pathname: /CALSIM/C_CAA225/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA232:
-  alias: Pool 28
-  bpart: C_CAA232
-  pathname: /CALSIM/C_CAA232/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA238:
-  alias: Pool 29, CVP Cross Valley Canal  AG Diversion
-  bpart: C_CAA238
-  pathname: /CALSIM/C_CAA238/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA239:
-  alias: Pool 29, CVP Cross Valley  Refuge Diversion
-  bpart: C_CAA239
-  pathname: /CALSIM/C_CAA239/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA240:
-  alias: Pool 29, KWB  Fan Element Diversion
-  bpart: C_CAA240
-  pathname: /CALSIM/C_CAA240/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA241:
-  alias: Pool 29, KWB  Local Element Diversion
-  bpart: C_CAA241
-  pathname: /CALSIM/C_CAA241/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA242:
-  alias: Pool 29, SWP KCWA & KWB Local Elmnt Rtrn
-  bpart: C_CAA242
-  pathname: /CALSIM/C_CAA242/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA245:
-  alias: Pool 30, Buena Vista Pumping Plant 
-  bpart: C_CAA245
-  pathname: /CALSIM/C_CAA245/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA251:
-  alias: Pool 31
-  bpart: C_CAA251
-  pathname: /CALSIM/C_CAA251/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA256:
-  alias: Pool 32
-  bpart: C_CAA256
-  pathname: /CALSIM/C_CAA256/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA262:
-  alias: Pool 33, SWP Reach 14A-14C  KCWA
-  bpart: C_CAA262
-  pathname: /CALSIM/C_CAA262/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA267:
-  alias: Pool 34
-  bpart: C_CAA267
-  pathname: /CALSIM/C_CAA267/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA271:
-  alias: Pool 35
-  bpart: C_CAA271
-  pathname: /CALSIM/C_CAA271/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA278:
-  alias: Pool 36, Wheeler Ridge Pumping Plant
-  bpart: C_CAA278
-  pathname: /CALSIM/C_CAA278/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA279:
-  alias: Pool 36, SWP Reach 15A-16A  KCWA
-  bpart: C_CAA279
-  pathname: /CALSIM/C_CAA279/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA280:
-  alias: Pool 37, Chrisman Pumping Plant
-  bpart: C_CAA280
-  pathname: /CALSIM/C_CAA280/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_CAA283:
-  alias: Pool 38
-  bpart: C_CAA283
-  pathname: /CALSIM/C_CAA283/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA287:
-  alias: Pool 39
-  bpart: C_CAA287
-  pathname: /CALSIM/C_CAA287/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA291:
-  alias: Pool 40
-  bpart: C_CAA291
-  pathname: /CALSIM/C_CAA291/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CAA293:
-  alias: Pool 41, Edmondston Pumping Plant
-  bpart: C_CAA293
-  pathname: /CALSIM/C_CAA293/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: CAA
-  units: cfs
-C_SJR013:
-  alias: San Joaquin River below Jersey Point
-  bpart: C_SJR013
-  pathname: /CALSIM/C_SJR013/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_SJR070:
-  alias: San Joaquin River at Vernalis
-  bpart: C_SJR070
-  pathname: /CALSIM/C_SJR070/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CSM001:
-  alias: Consumnes River Inflow
-  bpart: C_CSM001
-  pathname: /CALSIM/C_CSM001/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_MOK022:
-  alias: Consumnes River Inflow
-  bpart: C_MOK022
-  pathname: /CALSIM/C_MOK022/.*//.*/.*/
-  table_convert: cfs_taf
-  table_display: wy
-  type: Channel
-  units: cfs
-C_CLV004:
-  alias: Calaveras River Inflow
-  bpart: C_CLV004
-  pathname: /CALSIM/C_CLV004/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 D_SAC030_MOK014:
   alias: Flow from Sacramento River through DCC
-  bpart: D_SAC030_MOK014
-  pathname: /CALSIM/D_SAC030_MOK014/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
-C_SAC029B:
-  alias: Flow from Sacramento River through Georgiana Slough
-  bpart: C_SAC029B
-  pathname: /CALSIM/C_SAC029B/.*//.*/.*/
+EM_EC_MONTH:
+  alias: Salinity - EM EC
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: ec
+EXPORTACTUALIF:
+  alias: Delta - Total NDD Exports
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+EXPORTACTUALTD:
+  alias: Delta - Total TD Exports
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+JP_EC_MONTH:
+  alias: Salinity - JP EC
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+MRDO_FINALDV:
+  alias: Delta - Modeled Required DO
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI:
+  alias: Delta - Delta Outflow (NDOI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI_ADD:
+  alias: Delta - Additional Delta Outflow (NDOI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI_ADD_ANN:
+  alias: Delta - Additional Outflow for ANN (NDOI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI_ADD_CVP:
+  alias: Delta - Additional Outflow for CVP (NDOI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI_ADD_SWP:
+  alias: Delta - Additional Outflow for SWP (NDOI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+NDOI_MIN:
+  alias: Delta - Required Delta Outflow for NDO and X2
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: cfs
+PERDV_CVPAG_S:
+  alias: Delivery - CVP Allocation (SOD Ag)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPAG_SYS:
+  alias: Delivery - CVP Allocation (NOD Ag)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPEX_S:
+  alias: Delivery - CVP Allocation (SOD EX)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPMI_S:
+  alias: Delivery - CVP Allocation (SOD M&I)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPMI_SYS:
+  alias: Delivery - CVP Allocation (NOD M&I)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPRF_S:
+  alias: Delivery - CVP Allocation (SOD RF)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPRF_SYS:
+  alias: Delivery - CVP Allocation (NOD RF)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_CVPSC_SYS:
+  alias: Delivery - CVP Allocation (NOD SC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_SWP_FSC:
+  alias: Other - SWP Allocation (FRSA)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+PERDV_SWP_MWD1:
+  alias: Other - SWP Allocation (M&I)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Allocation
+  units: percent
+RS_EC_MONTH:
+  alias: Salinity - RS EC
+  table_convert: null
+  table_display: wy
+  type: Salinity
+  units: ec
+SHORT_CVP_TOT_N:
+  alias: Delivery - SHORT_CVP_TOT_N
+  table_convert: cfs_taf
+  table_display: wy
+  type: Shortage
+  units: cfs
+SHORT_CVP_TOT_S:
+  alias: Delivery - SHORT_CVP_TOT_S
+  table_convert: cfs_taf
+  table_display: wy
+  type: Shortage
+  units: cfs
+SHORT_SWP_TOTA:
+  alias: Other - SHORT_SWP_TOTAL (Cumulative)
+  table_convert: cfs_taf
+  table_display: 12
+  type: Shortage
+  units: cfs
+SHORT_SWP_TOT_S:
+  alias: Other - SWP South of Delta Shortage (Cumulative)
+  table_convert: cfs_taf
+  table_display: 12
+  type: Shortage
+  units: cfs
+SHORT_SWP_TOT_N:
+  alias: Other - SWP North of Delta Shortage (Cumulative)
+  table_convert: cfs_taf
+  table_display: 12
+  type: Shortage
+  units: cfs
+SP_SAC066_YBP020:
+  alias: Upstream Flows - Sacramento Weir spills
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SP_SAC083_YBP037:
+  alias: Upstream Flows - Fremont Weir spills
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_CO_FEATH:
+  alias: Delivery - SWP_CO_FEATH
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_CO_NBAY:
+  alias: Delivery - SWP_CO_NBAY
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_CO_TOTAL:
+  alias: SWP Carryover Deliveries
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery
+  units: cfs
+SWP_IN_FEATH:
+  alias: Delivery - SWP_IN_FEATH
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_IN_NBAY:
+  alias: Delivery - SWP_IN_NBAY
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_IN_TOTAL:
+  alias: SWP Article 21 Deliveries
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery
+  units: cfs
+SWP_LOSS:
+  alias: Delivery - SWP_LOSS
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_PERDELDV:
+  alias: Delivery - SWP PERCENT DELIVERY
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_TA_FEATH:
+  alias: Delivery - SWP_TA_FEATH
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_TA_NBAY:
+  alias: Delivery - SWP_TA_NBAY
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+SWP_TA_TOTAL:
+  alias: SWP Table A Deliveries
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery
+  units: cfs
+S_FOLSM:
+  alias: Storage - Folsom Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_MCLRE:
+  alias: Storage - McClure Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_MELON:
+  alias: Storage - New Melones Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_MLRTN:
+  alias: Storage - Friant Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_OROVL:
+  alias: Storage - Oroville Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_PEDRO:
+  alias: Storage - New Don Pedro Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_SHSTA:
+  alias: Storage - Shasta Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_SLUIS_CVP:
+  alias: Storage - San Luis Storage - CVP
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_SLUIS_SWP:
+  alias: Storage - San Luis Storage - SWP
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_TRNTY:
+  alias: Storage - Trinity Storage
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_WKYTN:
+  alias: Storage - Whiskeytown
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+S_LOSVQ:
+  alias: Storage - Los Vaqueros Reservoir
+  table_convert: orig
+  table_display: 9
+  type: Reservoir Storage
+  units: taf
+WYT_SAC_:
+  alias: Sacramento Valley Index (SVI) WYT Classification
+  table_convert: orig
+  table_display: 5
+  type: Channel
+  units: index
+X2_PRV:
+  alias: Salinity - X2 Position prev
+  table_convert: orig
+  table_display: wy
+  type: Channel
+  units: km
+SWP_CO_ACFC:
+  alias: Alameda County FC&WCD, Zone 7
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_ACWD:
+  alias: Alameda County WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_AVEK:
+  alias: Antelope Valley-East Kern WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_CLA:
+  alias: Crestline-Line Arrowhead WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_CLWA1:
+  alias: Santa Clarita WA (San Joaquin)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_CLWA2:
+  alias: Santa Clarita WA (South Coast)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_CVWD:
+  alias: Coachella Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_DESERT:
+  alias: Desert WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_DUDLEY:
+  alias: Dudley Ridge WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_EMPIRE:
+  alias: Empire West Side ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_KERN:
+  alias: Kern Counta WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_KINGS:
+  alias: County of Kings
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_LCID:
+  alias: Littlerock Creek ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_MWA:
+  alias: Mojave WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_MWD:
+  alias: Metropolitan WDSC
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_NAPA:
+  alias: Napa County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_OAK:
+  alias: Oak Flat WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_PWD:
+  alias: Palmdale WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SB:
+  alias: Santa Barbara County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SBV:
+  alias: San Bernadino Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SCV:
+  alias: Santa Clara Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SGP:
+  alias: San Gorgonio Pass WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SGV:
+  alias: San Gabriel Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SLO:
+  alias: San Luis Obispo County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_SOLANO:
+  alias: Solano County WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_TULARE:
+  alias: Tulare Lake Basin WSD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_CO_VC:
+  alias: Ventura County FCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - CO
+  units: cfs
+SWP_IN_ACFC:
+  alias: Alameda County FC&WCD, Zone 7
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_ACWD:
+  alias: Alameda County WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_AVEK:
+  alias: Antelope Valley-East Kern WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_CLA:
+  alias: Crestline-Line Arrowhead WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_CLWA1:
+  alias: Santa Clarita WA (San Joaquin)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_CLWA2:
+  alias: Santa Clarita WA (South Coast)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_CVWD:
+  alias: Coachella Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_DESERT:
+  alias: Desert WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_DUDLEY:
+  alias: Dudley Ridge WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_EMPIRE:
+  alias: Empire West Side ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_KERN:
+  alias: Kern Counta WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_KINGS:
+  alias: County of Kings
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_LCID:
+  alias: Littlerock Creek ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_MWA:
+  alias: Mojave WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_MWD:
+  alias: Metropolitan WDSC
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_NAPA:
+  alias: Napa County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_OAK:
+  alias: Oak Flat WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_PWD:
+  alias: Palmdale WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SB:
+  alias: Santa Barbara County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SBV:
+  alias: San Bernadino Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SCV:
+  alias: Santa Clara Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SGP:
+  alias: San Gorgonio Pass WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SGV:
+  alias: San Gabriel Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SLO:
+  alias: San Luis Obispo County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_SOLANO:
+  alias: Solano County WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_TULARE:
+  alias: Tulare Lake Basin WSD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_IN_VC:
+  alias: Ventura County FCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - IN
+  units: cfs
+SWP_TA_ACFC:
+  alias: Alameda County FC&WCD, Zone 7
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_ACWD:
+  alias: Alameda County WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_AVEK:
+  alias: Antelope Valley-East Kern WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_CLA:
+  alias: Crestline-Line Arrowhead WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_CLWA1:
+  alias: Santa Clarita WA (San Joaquin)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_CLWA2:
+  alias: Santa Clarita WA (South Coast)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_CVWD:
+  alias: Coachella Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_DESERT:
+  alias: Desert WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_DUDLEY:
+  alias: Dudley Ridge WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_EMPIRE:
+  alias: Empire West Side ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_KERNAG:
+  alias: Kern County WA (Ag)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_KERNMI:
+  alias: Kern County WA (MI)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_KINGS:
+  alias: County of Kings
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_LCID:
+  alias: Littlerock Creek ID
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_MWA:
+  alias: Mojave WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_MWD:
+  alias: Metropolitan WDSC
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_NAPA:
+  alias: Napa County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_OAK:
+  alias: Oak Flat WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_PWD:
+  alias: Palmdale WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SB:
+  alias: Santa Barbara County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SBV:
+  alias: San Bernadino Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SCV:
+  alias: Santa Clara Valley WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SGP:
+  alias: San Gorgonio Pass WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SGV:
+  alias: San Gabriel Valley MWD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SLO:
+  alias: San Luis Obispo County FC&WCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_SOLANO:
+  alias: Solano County WA
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_TULARE:
+  alias: Tulare Lake Basin WSD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+SWP_TA_VC:
+  alias: Ventura County FCD
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery - TA
+  units: cfs
+C_CAA087:
+  alias: Dos Amigos Pumping Plant
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA087_CVP:
+  alias: Dos Amigos Pumping Plant (CVP)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery
+  units: cfs
+C_CAA087_SWP:
+  alias: Dos Amigos Pumping Plant (SWP)
+  table_convert: cfs_taf
+  table_display: wy
+  type: Delivery
+  units: cfs
+C_CAA095:
+  alias: Pool 15 (SLC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA109:
+  alias: Pool 16 (SLC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA143:
+  alias: Pool 19 (SLC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA155:
+  alias: Pool 20 (SLC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA156:
+  alias: Pool 20 (SLC) Delivery to Avenal, Coalinga, Huron
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA165:
+  alias: Pool 21 (SLC)
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA172:
+  alias: Pool 22
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA173:
+  alias: Pool 22, SWP Reach 8C
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA181:
+  alias: Pool 22, SWP Reach 8C  County Of Kings
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA183:
+  alias: Pool 22, 8C-8D  Tulare Lake Basin Wsd
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA184:
+  alias: Pool 22, SWP Reach 8D  Dudley Ridge WD
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA185:
+  alias: Pool 22, SWP Aqueduct Downstream of Bifurcation To Coastal Br
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA194:
+  alias: Pool 23, SWP Reach 9-13B  KCWA
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA207:
+  alias: Pool 24, KWB  Semitropic Element Diversion
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA210:
+  alias: Pool 25, KCWA & KWB  Semitropic Return
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA220:
+  alias: Pool 26
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA225:
+  alias: Pool 27
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA232:
+  alias: Pool 28
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA238:
+  alias: Pool 29, CVP Cross Valley Canal  AG Diversion
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA239:
+  alias: Pool 29, CVP Cross Valley  Refuge Diversion
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA240:
+  alias: Pool 29, KWB  Fan Element Diversion
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA241:
+  alias: Pool 29, KWB  Local Element Diversion
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA242:
+  alias: Pool 29, SWP KCWA & KWB Local Elmnt Rtrn
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA245:
+  alias: Pool 30, Buena Vista Pumping Plant
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA251:
+  alias: Pool 31
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA256:
+  alias: Pool 32
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA262:
+  alias: Pool 33, SWP Reach 14A-14C  KCWA
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA267:
+  alias: Pool 34
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA271:
+  alias: Pool 35
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA278:
+  alias: Pool 36, Wheeler Ridge Pumping Plant
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA279:
+  alias: Pool 36, SWP Reach 15A-16A  KCWA
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA280:
+  alias: Pool 37, Chrisman Pumping Plant
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_CAA283:
+  alias: Pool 38
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA287:
+  alias: Pool 39
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA291:
+  alias: Pool 40
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CAA293:
+  alias: Pool 41, Edmondston Pumping Plant
+  table_convert: cfs_taf
+  table_display: wy
+  type: CAA
+  units: cfs
+C_SJR013:
+  alias: San Joaquin River below Jersey Point
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_SJR070:
+  alias: San Joaquin River at Vernalis
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CSM001:
+  alias: Consumnes River Inflow
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_MOK022:
+  alias: Consumnes River Inflow
+  table_convert: cfs_taf
+  table_display: wy
+  type: Channel
+  units: cfs
+C_CLV004:
+  alias: Calaveras River Inflow
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 D_BKR004_NBA009:
   alias: North Bay Aqueduct
-  bpart: D_BKR004_NBA009
-  pathname: /CALSIM/D_BKR004_NBA009/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Diversion
   units: cfs
 D_RSL004_CCC004:
   alias: Contra Costa Water District, Rock Slough Intake
-  bpart: D_RSL004_CCC004
-  pathname: /CALSIM/D_RSL004_CCC004/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Diversion
   units: cfs
 D_OMR021_ORP000:
   alias: Contra Costa Water District, Old River Intake
-  bpart: D_OMR021_ORP000
-  pathname: /CALSIM/D_OMR021_ORP000/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Diversion
   units: cfs
 D_VCT002_ORP000:
   alias: Contra Costa Water District, Middle River Intake
-  bpart: D_VCT002_ORP000
-  pathname: /CALSIM/D_VCT002_ORP000/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Diversion
   units: cfs
 QwestFlowEstdv:
   alias: QWEST Flow Estimation (Dayflow Definition)
-  bpart: QwestFlowEstdv
-  pathname: /CALSIM/QwestFlowEstdv/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Index
   units: cfs
 C_SJR013_CYCJPOD:
   alias: San Joaquin River Below Jersey Point (JPOD Cycle)
-  bpart: C_SJR013_CYCJPOD
-  pathname: /CALSIM/C_SJR013_CYCJPOD/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: Channel
   units: cfs
 C_OMR014_LBOUND:
   alias: Old and Middle River flow Lower Bound
-  bpart: C_OMR014_LBOUND
-  pathname: /CALSIM/C_OMR014_LBOUND/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: OMR
   units: cfs
 C_OMR014_LBOUND_ALT5:
   alias: Old and Middle River flow Lower Bound (Alt5)
-  bpart: C_OMR014_LBOUND_ALT5
-  pathname: /CALSIM/C_OMR014_LBOUND_ALT5/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: OMR
   units: cfs
 MAXEXP_OMR_SWPDV:
   alias: SWP Max OMR Export
-  bpart: MAXEXP_OMR_SWPDV
-  pathname: /CALSIM/MAXEXP_OMR_SWPDV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: OMR
   units: cfs
 MAXEXP_OMR_CVPDV:
   alias: CVP Max OMR Export
-  bpart: MAXEXP_OMR_CVPDV
-  pathname: /CALSIM/MAXEXP_OMR_CVPDV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: OMR
   units: cfs
 UNUSED_MAXEXP_OMR_ALT5DV:
   alias: Unused CVP OMR Capacity (Alt 5 method)
-  bpart: UNUSED_MAXEXP_OMR_ALT5DV
-  pathname: /CALSIM/UNUSED_MAXEXP_OMR_ALT5DV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 UNUSED_MAXEXP_OMR_SWP_ALT5DV:
   alias: Unused SWP OMR Capacity (Alt 5 method)
-  bpart: UNUSED_MAXEXP_OMR_SWP_ALT5DV
-  pathname: /CALSIM/UNUSED_MAXEXP_OMR_SWP_ALT5DV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 UNUSED_MAXEXP_OMR_CVPDV:
   alias: Unused CVP OMR Capacity (LTO Method)
-  bpart: UNUSED_MAXEXP_OMR_CVPDV
-  pathname: /CALSIM/UNUSED_MAXEXP_OMR_CVPDV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 UNUSED_MAXEXP_OMR_SWPDV:
   alias: Unused SWP OMR Capacity (LTO Method)
-  bpart: UNUSED_MAXEXP_OMR_SWPDV
-  pathname: /CALSIM/UNUSED_MAXEXP_OMR_SWPDV/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 BALANCED_OMR:
   alias: OMR Control (LTO Method)
-  bpart: BALANCED_OMR
-  pathname: /CALSIM/BALANCED_OMR/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 BALANCED_OMR_ALT5_:
   alias: OMR Control (Alt5 Method)
-  bpart: BALANCED_OMR_ALT5_
-  pathname: /CALSIM/BALANCED_OMR_ALT5_/.*//.*/.*/
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 FINAL_UNUSED_MAXEXP_OMR_CVPDV:
-  alias:
-  bpart: FINAL_UNUSED_MAXEXP_OMR_CVPDV
-  pathname: /CALSIM/FINAL_UNUSED_MAXEXP_OMR_CVPDV/.*//.*/.*/
+  alias: null
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
   units: cfs
 FINAL_UNUSED_MAXEXP_OMR_SWPDV:
-  alias:
-  bpart: FINAL_UNUSED_MAXEXP_OMR_SWPDV
-  pathname: /CALSIM/FINAL_UNUSED_MAXEXP_OMR_SWPDV/.*//.*/.*/
+  alias: null
   table_convert: cfs_taf
   table_display: wy
   type: TEMP
