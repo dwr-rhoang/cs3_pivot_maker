@@ -70,11 +70,12 @@ common_pers = {
 }
 
 UNIT_DESCRIPTIONS = {
-        "cfs": "Cubic feet per second",
-        "taf": "Thousand acre-feet",
-        "ec": "µmho/cm",
-        "km": "Kilometers from the Golden Gate Bridge"
+    "cfs": "Cubic feet per second",
+    "taf": "Thousand acre-feet",
+    "ec": "µmho/cm",
+    "km": "Kilometers from the Golden Gate Bridge",
 }
+
 
 def get_unit_descriptions(var_dict, b_part):
     if var_dict[b_part]["units"] == "cfs":
@@ -116,7 +117,14 @@ from pathlib import Path
 import pandas as pd
 
 
-def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv", append: bool = False) -> None:
+def load_data(
+    studies,
+    var_dict: dict,
+    date_map,
+    kind: str,
+    outfile="temp.csv",
+    append: bool = False,
+) -> None:
     """
     Load data from the selected DSS files into a .csv
     """
@@ -134,8 +142,8 @@ def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv", 
 
                 # collect all RTS as separate columns
                 for rts in dss.read_multiple_rts(path_i):
-                    tmp = rts.to_frame()           # index = time
-                    tmp.columns = [rts.path.b]     # name column by B-part
+                    tmp = rts.to_frame()  # index = time
+                    tmp.columns = [rts.path.b]  # name column by B-part
                     frames.append(tmp)
 
         if not frames:
@@ -145,9 +153,9 @@ def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv", 
         dfi = pd.concat(frames, axis=1)
 
         # add metadata once per study
-        dfi["Scenario"]   = s.alias
+        dfi["Scenario"] = s.alias
         dfi["Assumption"] = s.assumptions
-        dfi["Climate"]    = s.climate
+        dfi["Climate"] = s.climate
 
         appended_data.append(dfi)
 
@@ -207,7 +215,9 @@ def make_ressum_df(
         except KeyError:
             continue
 
-    df_tbl = round(df1.groupby(["Scenario"]).sum(numeric_only=True) / (end_yr - start_yr + 1))
+    df_tbl = round(
+        df1.groupby(["Scenario"]).sum(numeric_only=True) / (end_yr - start_yr + 1)
+    )
 
     # Drop the index columns
     df_tbl.drop(["icy", "icm", "iwy", "iwm", "cfs_taf"], axis=1, inplace=True)
@@ -240,7 +250,7 @@ def make_summary_df(
     scenlist: list[int],
     df: pd.DataFrame,
     var_dict: dict,
-    yrkind: str = 'iwy',
+    yrkind: str = "iwy",
     start_yr: int = 1922,
     end_yr: int = 2021,
     monthfilter: Iterable[int] = monthfilter,
@@ -248,9 +258,9 @@ def make_summary_df(
 ) -> pd.DataFrame:
 
     df1 = df.loc[
-        (df["icm"].isin(monthfilter)) &
-        (df[yrkind] >= start_yr) &
-        (df[yrkind] <= end_yr)
+        (df["icm"].isin(monthfilter))
+        & (df[yrkind] >= start_yr)
+        & (df[yrkind] <= end_yr)
     ]
     columns_to_drop = [col for col in df1.columns if "S_" in col]
     df1 = df1.drop(columns=columns_to_drop)
@@ -259,7 +269,9 @@ def make_summary_df(
     df1 = cfs_taf(df1, var_dict)
 
     # Annual Average
-    df_tbl = round(df1.groupby(["Scenario"]).sum(numeric_only=True) / (end_yr - start_yr + 1))
+    df_tbl = round(
+        df1.groupby(["Scenario"]).sum(numeric_only=True) / (end_yr - start_yr + 1)
+    )
 
     # Time slicing is done; drop the index columns
     df_tbl.drop(["icy", "icm", "iwy", "iwm", "cfs_taf"], axis=1, inplace=True)
@@ -276,8 +288,9 @@ def make_summary_df(
     for key in var_dict:
         alias_dict[key] = var_dict[key]["alias"]
         type_dict[key] = var_dict[key]["type"]
-        convert_dict[key] = "TAF/Yr" \
-            if var_dict[key]["table_convert"] == 'cfs_taf' else ''
+        convert_dict[key] = (
+            "TAF/Yr" if var_dict[key]["table_convert"] == "cfs_taf" else ""
+        )
 
     df_tbl = df_tbl.T
     # Add index columns
@@ -397,7 +410,7 @@ def list_files(directory_path):
     try:
         # Convert the directory path to a Path object
         directory = Path(directory_path)
-        
+
         if not directory.exists():
             print(f"The directory '{directory_path}' does not exist.")
             return []
@@ -414,7 +427,12 @@ def list_files(directory_path):
         return []
 
 
-def write_df_to_csv(df: pd.DataFrame, outfile: str, append: bool = False, outdir: Union[str, Path] = "output") -> None:
+def write_df_to_csv(
+    df: pd.DataFrame,
+    outfile: str,
+    append: bool = False,
+    outdir: Union[str, Path] = "output",
+) -> None:
     """
     Write DataFrame to CSV. If append=True and file exists we:
       - read the existing CSV (index_col=0, parse_dates=True)
@@ -447,4 +465,3 @@ def write_df_to_csv(df: pd.DataFrame, outfile: str, append: bool = False, outdir
     combined = combined[~combined.index.duplicated(keep="last")]
     combined = combined.sort_index()
     combined.to_csv(outpath)
-
