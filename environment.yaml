@@ -1,0 +1,24 @@
+name: study_loader
+channels:
+  - dwr-cvm
+  - cadwr-dms
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # MSO packages
+  - pandss
+  # Basics
+  - pandas
+  # Plotting/Dashboard
+  - dash
+  - dash-bootstrap-components
+  - plotly
+  - seaborn
+  # Misc
+  - flake8
+  - black
+  - isort
+  - httpx
+  - pyyaml
