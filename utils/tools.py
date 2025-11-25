@@ -136,7 +136,8 @@ def load_data(
 
         with pdss.DSS(dss_path) as dss:
             for var, spec in var_dict.items():
-                path_str = spec["pathname"]
+                # path_str = spec["pathname"]
+                path_str = f"/CALSIM/{var}/.*//.*/.*/"
                 path_i = pdss.DatasetPath.from_str(path_str)
                 print(path_str)
 
