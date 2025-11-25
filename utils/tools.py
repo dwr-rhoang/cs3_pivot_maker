@@ -4,8 +4,10 @@ from typing import Any, Iterable, Union
 from pathlib import Path
 
 import pandas as pd
-import pandss as pdss
-import yaml
+try:
+    import pandss as pdss
+except Exception:
+    pdss = None
 
 # pd.options.mode.chained_assignment = None
 
@@ -411,29 +413,22 @@ def list_files(directory_path):
 
 def write_df_to_csv(df: pd.DataFrame, outfile: str, append: bool = False, outdir: Union[str, Path] = "output") -> None:
     """
-    Write a DataFrame to CSV, optionally appending to an existing file.
-
-    Behavior when append=True and file exists:
-      - Read existing CSV (index_col=0, parse_dates=True)
-      - Normalize timezone/index just like load_data does
-      - Concat existing + new and drop duplicate timestamps keeping the latest values
-      - Write merged CSV
-
-    Keeps the original behavior if append=False.
+    Write DataFrame to CSV. If append=True and file exists we:
+      - read the existing CSV (index_col=0, parse_dates=True)
+      - normalize timestamps (strip tz, normalize to midnight)
+      - concatenate existing + new, prefer NEW rows for duplicate timestamps
+      - write merged CSV
     """
     outdir = Path(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
     outpath = outdir / outfile
 
     if not append or not outpath.exists():
-        # simply write/overwrite
         df.to_csv(outpath)
         return
 
-    # Read existing file and merge
     existing = pd.read_csv(outpath, index_col=0, parse_dates=True)
 
-    # Normalize indices for both frames
     def _normalize_index(dframe: pd.DataFrame) -> pd.DataFrame:
         dframe.index = pd.to_datetime(dframe.index)
         if getattr(dframe.index, "tz", None) is not None:
@@ -445,12 +440,8 @@ def write_df_to_csv(df: pd.DataFrame, outfile: str, append: bool = False, outdir
     df = _normalize_index(df)
 
     combined = pd.concat([existing, df], axis=0)
-
-    # If the same timestamp appears both in existing and new, prefer the new (keep='last')
-    combined = combined[~combined.index.duplicated(keep='last')]
-
-    # Sort by index so file remains ordered
+    # prefer the new rows when indices collide
+    combined = combined[~combined.index.duplicated(keep="last")]
     combined = combined.sort_index()
-
     combined.to_csv(outpath)
 
