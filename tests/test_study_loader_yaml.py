@@ -1,6 +1,9 @@
-import yaml
 from pathlib import Path
+
+import yaml
+
 from study_loader import load_studies_from_ledger
+
 
 def test_load_studies_from_ledger(tmp_path):
     ledger = {
