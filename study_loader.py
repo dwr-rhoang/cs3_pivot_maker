@@ -21,14 +21,21 @@ studies = [
 
     Study(r"C:\jobs\20251020_Alt5\_models\DCR_9.8.0_SDR_Off\DSS\output\DCR2025_DV_9.8.0_Danube_Adj_v4.0_OMRbase2.dss",
           r"C:\jobs\20251020_Alt5\_models\DCR_9.8.0_SDR_Off\DSS\input\DCR2025_SV_Danube_Adj_v4.0.dss",
-          "DCR25_AdjHist_noSDR", "DCR25", "Current", 1)
+          "DCR25_AdjHist_noSDR", "DCR25", "Current", 1),
     Study(r"C:\jobs\20251020_Alt5\_models\Alt5_1.3.2\DSS\output\Alt5_1.3.2_adjHist.dss",
           r"C:\jobs\20251020_Alt5\_models\Alt5_1.3.2\DSS\input\DCR2025_SV_Danube_Adj_v4.0.dss",
-          "Alt5_1.3.2", "Alt5", "Current", 1)
+          "Alt5_1.3.2", "Alt5", "Current", 1),
+    Study(r"C:\jobs\20251020_Alt5\_models\DCR_9.8.0_SDRon\DSS\output\DCR2025_DV_9.8.0_Danube_Adj_v4.0_OMRbase_SDRon.dss",
+          r"C:\jobs\20251020_Alt5\_models\DCR_9.8.0_SDR_Off\DSS\input\DCR2025_SV_Danube_Adj_v4.0.dss",
+          "DCR25_AdjHist_SDRON", "DCR25", "Current", 1),
+    Study(r"C:\jobs\20251020_Alt5\_models\Alt5_1.3.2_SDRon_sjr013\DSS\output\Alt5_1.3.2_SDRon_SJR013.dss",
+          r"C:\jobs\20251020_Alt5\_models\Alt5_1.3.2\DSS\input\DCR2025_SV_Danube_Adj_v4.0.dss",
+          "Alt5_1.3.2_SDRON_SJR013", "Alt5", "Current", 1)
+
 
 
 ]
 
 
-load_data(studies, var_dict_dv, date_map, "dv", "dv_data.csv")
-load_data(studies, var_dict_sv, date_map, "sv", "sv_data.csv")
+load_data(studies, var_dict_dv, date_map, "dv", "dv_data.csv", append=False)
+load_data(studies, var_dict_sv, date_map, "sv", "sv_data.csv", append=False)

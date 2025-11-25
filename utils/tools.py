@@ -1,6 +1,6 @@
 import csv
 import os
-from typing import Any, Iterable
+from typing import Any, Iterable, Union
 from pathlib import Path
 
 import pandas as pd
@@ -111,7 +111,7 @@ def convert_wyt_nums(wytchecklist: Iterable[str]) -> list[str]:
 from pathlib import Path
 import pandas as pd
 
-def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv") -> None:
+def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv", append: bool = False) -> None:
     """
     Load data from the selected DSS files into a .csv
     """
@@ -177,8 +177,8 @@ def load_data(studies, var_dict: dict, date_map, kind: str, outfile="temp.csv") 
     ordered_cols = meta_cols + cols
     df = df[ordered_cols]
 
-    # keep original behavior for CSV (index included by default)
-    df.to_csv(f"output/{outfile}")
+    # final write
+    write_df_to_csv(df, outfile=outfile, append=append, outdir=Path("output"))
 
 
 def make_ressum_df(
@@ -407,4 +407,50 @@ def list_files(directory_path):
     except PermissionError:
         print(f"Permission denied to access the directory '{directory_path}'.")
         return []
+
+
+def write_df_to_csv(df: pd.DataFrame, outfile: str, append: bool = False, outdir: Union[str, Path] = "output") -> None:
+    """
+    Write a DataFrame to CSV, optionally appending to an existing file.
+
+    Behavior when append=True and file exists:
+      - Read existing CSV (index_col=0, parse_dates=True)
+      - Normalize timezone/index just like load_data does
+      - Concat existing + new and drop duplicate timestamps keeping the latest values
+      - Write merged CSV
+
+    Keeps the original behavior if append=False.
+    """
+    outdir = Path(outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    outpath = outdir / outfile
+
+    if not append or not outpath.exists():
+        # simply write/overwrite
+        df.to_csv(outpath)
+        return
+
+    # Read existing file and merge
+    existing = pd.read_csv(outpath, index_col=0, parse_dates=True)
+
+    # Normalize indices for both frames
+    def _normalize_index(dframe: pd.DataFrame) -> pd.DataFrame:
+        dframe.index = pd.to_datetime(dframe.index)
+        if getattr(dframe.index, "tz", None) is not None:
+            dframe.index = dframe.index.tz_convert(None)
+        dframe.index = dframe.index.normalize()
+        return dframe
+
+    existing = _normalize_index(existing)
+    df = _normalize_index(df)
+
+    combined = pd.concat([existing, df], axis=0)
+
+    # If the same timestamp appears both in existing and new, prefer the new (keep='last')
+    combined = combined[~combined.index.duplicated(keep='last')]
+
+    # Sort by index so file remains ordered
+    combined = combined.sort_index()
+
+    combined.to_csv(outpath)
 
